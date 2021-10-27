@@ -1,0 +1,55 @@
+Exercise 1)
+    b)
+    Term count before stopword english 10164
+    Term count after english stopword  9811 
+    Total stopwords removed 353.
+    a)
+    Terms before stemming 9811
+    Terms after stemming  7198
+    The number of unique terms is 2613 smaler than before this is most likely the result of words based on the same 
+    base beeing reduced to the same stem. Like plurals and singular version of a word form the same base. Also a few
+    different words will resullt in the same stemmed base this is not optimal.
+
+Exercise 2) 
+    a)
+    256 Documents
+    b)
+    I think not as we most likely wanted to know more about fluid density as metric not its application in a specific field.
+    c)
+    Yes the second one is relevant. 
+    d)
+    Yes the most relevant documents chane and I think they are more relevant with BM25
+
+Exercise 3) 
+    a)
+    I would use the querry: "experimental hypersonic" and two terms found only in document one or document two respectivly
+    so if both show up its and. 
+    The number of found documents increases when i use both instead of only one querry meaning it searches for either or. 
+    b)
+    I would say it would degarde precision. 
+    c)
+    ii
+    d)
+    ii finds more documents
+    i finds proably more relevant documents as it contains more of the querry. 
+
+Exercise 4)
+    a) 
+    olive not stemmed = 0
+    olive stemmed     = 2
+    b)
+    No neither even contain the word olive 
+    c)
+    An unsuccesfull stemming as some different terms than olive got mapped to the same base.
+    d) 
+    (1) = true / (2) = false / (3) = false / (4) = true / (5) = false(homonyme) / (6) = true 
+
+Exercise 5) 
+    a) 
+    i) it did not work
+    ii) we can not they stem to the same base
+    b) 
+    i can exclude terms or weight them negatively whilst ii can only emphasize terms.
+
+Exercise 6)
+    a)
