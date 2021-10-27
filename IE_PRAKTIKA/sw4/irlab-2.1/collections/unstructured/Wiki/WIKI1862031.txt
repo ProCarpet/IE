@@ -1,0 +1,3 @@
+MediaWiki:Listfiles-summary
+
+Diese [[Hilfe:Spezialseiten|Spezialseite]] listet alle hochgeladenen Dateien auf. Standardmä{{ß}}ig werden die zuletzt hochgeladenen Dateien zuerst angezeigt. Durch einen Klick auf die Spaltenüberschriften kann die Sortierung umgedreht werden oder es kann nach einer anderen Spalte sortiert werden, um z.&nbsp;B. nach 0-Byte-Dateien (und damit defekten Dateien) zu suchen.{{#ifeq:{{PAGENAME}}|{{#titleparts:{{PAGENAME}}|1|-1}} |<!--nichts--> |<br /><br />→ [[Commons:Special:ListFiles/{{#titleparts:{{PAGENAME}}|1|-1}}|Dateiliste auf Wikimedia Commons]]}}

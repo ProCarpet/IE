@@ -1,0 +1,9 @@
+<doc>
+<recordId>78</recordId>
+<text>
+.I 121
+.W
+has anyone explained the kink in the surge line of a multi-stage
+axial compressor .
+</text>
+</doc>

@@ -1,0 +1,9 @@
+<doc>
+<recordId>174</recordId>
+<text>
+.I 265
+.W
+obtain all papers and reports that contain shock detachment distance
+data .
+</text>
+</doc>

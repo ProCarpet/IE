@@ -1,0 +1,9 @@
+<doc>
+<recordId>5</recordId>
+<text>
+.I 009
+.W
+what chemical kinetic system is applicable to hypersonic aerodynamic
+problems .
+</text>
+</doc>

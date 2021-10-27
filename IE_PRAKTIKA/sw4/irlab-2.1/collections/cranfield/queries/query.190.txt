@@ -1,0 +1,10 @@
+<doc>
+<recordId>190</recordId>
+<text>
+.I 293
+.W
+will an analysis of panel flutter based on arbitrarily assumed modes of
+deformation prove satisfactory,  and if so,  what is the minimum number
+of modes that need be considered .
+</text>
+</doc>

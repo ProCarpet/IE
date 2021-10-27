@@ -1,0 +1,9 @@
+<doc>
+<recordId>80</recordId>
+<text>
+.I 123
+.W
+are methods of measuring aerodynamic derivatives available which
+could be adopted for use in short running time facilities .
+</text>
+</doc>

@@ -1,0 +1,9 @@
+<doc>
+<recordId>117</recordId>
+<text>
+.I 170
+.W
+is there any information on how the addition of a /boat-tail/ affects
+the normal force on the body of various angles of incidence .
+</text>
+</doc>

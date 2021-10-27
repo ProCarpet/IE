@@ -1,0 +1,3 @@
+Kanonisches Format
+
+Das '''kanonische Format''' bezeichnet in der Informatik eindeutige Darstellungen von [[Daten]] (siehe auch [[Kanonische Form|kanonische Form]]). Darunter fallen zum Beispiel:* das [[Datumsformat]] für ein [[Kalenderdatum]]* unterschiedliche [[Rufnummer#Schreibweisen|Schreibweisen von Telefonnummern]]Das '''kanonische Adressformat''' ist eine von Microsoft verwendete [[Rufnummer#Schreibweisen|Schreibweise für Rufnummern]].{{Begriffsklärung}}

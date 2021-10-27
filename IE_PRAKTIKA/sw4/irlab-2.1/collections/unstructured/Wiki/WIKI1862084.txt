@@ -1,0 +1,3 @@
+MediaWiki:Prefixindex-summary
+
+Diese [[Hilfe:Spezialseiten|Spezialseite]] zeigt alle Artikel, die mit der eingegebenen Zeichenfolge ({{„}}Präfix{{“}}) beginnen. Die Ausgabe kann auf einen [[Hilfe:Namensräume|Namensraum]] eingeschränkt werden. Sinnvoll ist dies zum Beispiel, um sich alle Unterseiten einer Benutzerseite (und nur diese, im Unterschied zu [[Spezial:Alle Seiten]]) anzeigen zu lassen.

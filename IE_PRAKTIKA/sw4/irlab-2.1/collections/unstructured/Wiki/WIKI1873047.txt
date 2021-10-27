@@ -1,0 +1,3 @@
+Schaltplan (Begriffsklärung)
+
+Ein '''Schaltplan''' ist eine schematische Darstellung von Funktionsabläufen. Es gibt sie* in der Elektronik, siehe [[Schaltplan]]* in der Elektroinstallationstechnik, siehe [[Stromlaufplan]]* in der Hydraulik, siehe [[Schaltplan (Hydraulik)]]* in der Pneumatik, siehe [[Schaltplan (Pneumatik)]]{{Begriffsklärung}}

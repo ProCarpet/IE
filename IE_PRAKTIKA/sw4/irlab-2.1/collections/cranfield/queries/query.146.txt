@@ -1,0 +1,9 @@
+<doc>
+<recordId>146</recordId>
+<text>
+.I 216
+.W
+does a membrane theory exist by which the behaviour of pressurized
+membrane cylinders in bending can be predicted .
+</text>
+</doc>

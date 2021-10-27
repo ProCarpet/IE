@@ -1,0 +1,10 @@
+<doc>
+<recordId>20</recordId>
+<text>
+.I 035
+.W
+has anyone formally determined the influence of joule heating,  produced
+by the induced current,  in magnetohydrodynamic free convection flows
+under general conditions .
+</text>
+</doc>

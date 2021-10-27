@@ -1,0 +1,9 @@
+<doc>
+<recordId>143</recordId>
+<text>
+.I 213
+.W
+what general solutions for the stresses in pressurized shells of
+revolution are available .
+</text>
+</doc>

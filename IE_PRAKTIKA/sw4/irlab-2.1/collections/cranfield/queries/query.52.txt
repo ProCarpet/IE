@@ -1,0 +1,9 @@
+<doc>
+<recordId>52</recordId>
+<text>
+.I 087
+.W
+what is the available information pertaining to the effect of slight
+rarefaction on boundary layer flows (the ?slip? effect) .
+</text>
+</doc>

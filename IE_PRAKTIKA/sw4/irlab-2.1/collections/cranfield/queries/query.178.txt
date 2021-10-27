@@ -1,0 +1,9 @@
+<doc>
+<recordId>178</recordId>
+<text>
+.I 269
+.W
+has a criterion been established for determining the axial compressor
+choking line .
+</text>
+</doc>

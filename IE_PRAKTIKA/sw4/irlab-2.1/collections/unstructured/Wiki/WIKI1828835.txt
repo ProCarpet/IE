@@ -1,0 +1,3 @@
+Multisession
+
+Der Begriff '''Multisession''' (engl. für ''Mehrfachsitzung'') wird im EDV-Bereich wie folgt verwendet:* CDs, die in mehreren Sitzungen gebrannt werden können, siehe [[Multisession-CD]]* das gleichzeitige Bereitstellen von Arbeitsumgebungen auf einem Betriebssystem, siehe [[Mehrbenutzersystem#Multisession]] {{Begriffsklärung}}

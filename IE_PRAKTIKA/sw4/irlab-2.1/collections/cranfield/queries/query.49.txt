@@ -1,0 +1,10 @@
+<doc>
+<recordId>49</recordId>
+<text>
+.I 084
+.W
+can the three-point boundary-value problem for the blasius equation
+be integrated numerically,  using suitable transformations,  without
+iteration on the boundary conditions .
+</text>
+</doc>

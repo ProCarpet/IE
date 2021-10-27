@@ -1,0 +1,9 @@
+<doc>
+<recordId>100</recordId>
+<text>
+.I 149
+.W
+what are the effects of initial imperfections on the elastic buckling of
+cylindrical shells under axial compression .
+</text>
+</doc>

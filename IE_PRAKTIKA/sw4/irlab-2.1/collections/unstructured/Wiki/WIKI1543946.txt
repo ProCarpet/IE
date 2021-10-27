@@ -1,0 +1,3 @@
+MediaWiki:Noexactmatch
+
+'''Es existiert kein Artikel mit dem Namen „$1“.'''Du kannst [[Spezial:Alle Seiten/$1|den Index]] durchsuchen, um nachzusehen, ob der Artikel unter einem ähnlichen Namen existiert.Wenn du dich mit dem Thema auskennst, kannst du selbst den Artikel „[[:$1]]“ verfassen ([[Hilfe:Tutorial|Tutorial für Erstautoren]]).

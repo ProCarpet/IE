@@ -1,0 +1,9 @@
+<doc>
+<recordId>149</recordId>
+<text>
+.I 219
+.W
+has anyone developed an analysis which accurately establishes the large
+deflection behaviour of conical shells .
+</text>
+</doc>

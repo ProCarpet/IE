@@ -1,0 +1,9 @@
+<doc>
+<recordId>165</recordId>
+<text>
+.I 251
+.W
+are the stable profiles of a compressible boundary layer induced by a
+moving wave known .
+</text>
+</doc>

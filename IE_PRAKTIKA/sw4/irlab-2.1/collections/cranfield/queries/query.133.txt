@@ -1,0 +1,8 @@
+<doc>
+<recordId>133</recordId>
+<text>
+.I 202
+.W
+experimental studies of creep buckling .
+</text>
+</doc>

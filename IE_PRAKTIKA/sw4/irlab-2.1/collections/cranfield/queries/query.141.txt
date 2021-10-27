@@ -1,0 +1,9 @@
+<doc>
+<recordId>141</recordId>
+<text>
+.I 211
+.W
+what analytical solutions are available for stresses in edge-loaded
+shells of revolution .
+</text>
+</doc>

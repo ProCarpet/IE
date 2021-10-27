@@ -1,0 +1,10 @@
+<doc>
+<recordId>22</recordId>
+<text>
+.I 040
+.W
+did anyone else discover that the turbulent skin friction is not over
+sensitive to the nature of the variation of the viscosity with
+temperature .
+</text>
+</doc>

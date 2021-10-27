@@ -1,0 +1,9 @@
+<doc>
+<recordId>16</recordId>
+<text>
+.I 031
+.W
+can the transverse potential flow about a body of revolution be
+calculated efficiently by an electronic computer .
+</text>
+</doc>

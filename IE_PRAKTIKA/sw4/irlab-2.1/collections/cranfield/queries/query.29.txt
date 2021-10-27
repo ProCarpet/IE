@@ -1,0 +1,9 @@
+<doc>
+<recordId>29</recordId>
+<text>
+.I 054
+.W
+what is the effect of cross sectional shape on the flow over simple
+delta wings with sharp leading edges .
+</text>
+</doc>

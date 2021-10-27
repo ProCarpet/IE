@@ -1,0 +1,10 @@
+<doc>
+<recordId>75</recordId>
+<text>
+.I 118
+.W
+do the discrepancies among current analyses of the vorticity effect
+on stagnation-point heat transfer result primarily from the
+differences in the viscosity-temperature law assumed .
+</text>
+</doc>

@@ -1,0 +1,10 @@
+<doc>
+<recordId>58</recordId>
+<text>
+.I 099
+.W
+is it possible to determine rates of forced convective heat transfer
+from heated cylinders of non-circular cross-section,  (the fluid flow
+being along the generators) .
+</text>
+</doc>

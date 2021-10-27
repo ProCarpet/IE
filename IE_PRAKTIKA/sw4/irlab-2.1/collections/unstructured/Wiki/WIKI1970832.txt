@@ -1,0 +1,3 @@
+Vollbild
+
+'''Vollbild''' hat mehrere Bedeutungen:* ein Bildformat, siehe [[Vollbild (Filmtechnik)]]* eine Technik beim Bildaufbau, siehe [[Vollbildverfahren]]* bei [[Grafische Benutzeroberfläche|GUI]]-Anwendungen bezeichnet Vollbild(-Modus) das Ausblenden jeglicher Menüleisten, meist mit {{Taste|F11}} aufgerufen.{{Begriffsklärung}}

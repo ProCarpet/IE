@@ -1,0 +1,3 @@
+MediaWiki:Mostrevisions-summary
+
+Diese [[Hilfe:Spezialseiten|Spezialseite]] zeigt eine Liste der Artikel mit den meisten Bearbeitungen.

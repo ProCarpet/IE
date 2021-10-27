@@ -1,0 +1,9 @@
+<doc>
+<recordId>183</recordId>
+<text>
+.I 277
+.W
+what factors have been shown to have a primary influence on sonic boom
+strength .
+</text>
+</doc>

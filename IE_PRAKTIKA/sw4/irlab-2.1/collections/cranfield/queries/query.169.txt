@@ -1,0 +1,10 @@
+<doc>
+<recordId>169</recordId>
+<text>
+.I 255
+.W
+what approximate solutions are known to the indirect problem of
+transonic flow in the throat of a nozzle,  i.e. finding a nozzle which
+has a given axial velocity distribution .
+</text>
+</doc>

@@ -1,0 +1,9 @@
+<doc>
+<recordId>26</recordId>
+<text>
+.I 051
+.W
+what is a single approximate formula for the displacement thickness of
+a laminar boundary layer in compressible flow on a flat plate .
+</text>
+</doc>

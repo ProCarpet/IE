@@ -1,0 +1,3 @@
+MediaWiki:Mostlinked-summary
+
+Diese [[Hilfe:Spezialseiten|Spezialseite]] zeigt unabhängig vom [[Hilfe:Namensräume|Namensraum]] die innerhalb der Wikipedia am Häufigsten verlinkten Seiten an.

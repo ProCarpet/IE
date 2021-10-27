@@ -1,0 +1,9 @@
+<doc>
+<recordId>6</recordId>
+<text>
+.I 010
+.W
+what theoretical and experimental guides do we have as to turbulent
+couette flow behaviour .
+</text>
+</doc>

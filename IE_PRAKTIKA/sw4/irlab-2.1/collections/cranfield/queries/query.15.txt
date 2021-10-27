@@ -1,0 +1,8 @@
+<doc>
+<recordId>15</recordId>
+<text>
+.I 029
+.W
+material properties of photoelastic materials .
+</text>
+</doc>

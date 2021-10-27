@@ -1,0 +1,9 @@
+<doc>
+<recordId>196</recordId>
+<text>
+.I 299
+.W
+the problem of similarity for representative investigation of
+aeroelastic effects in a flow with the absence of heating effects .
+</text>
+</doc>

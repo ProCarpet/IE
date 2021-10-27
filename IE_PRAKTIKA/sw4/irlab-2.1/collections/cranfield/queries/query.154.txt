@@ -1,0 +1,9 @@
+<doc>
+<recordId>154</recordId>
+<text>
+.I 227
+.W
+which  iterative method for solving linear elliptic
+difference equations is most rapidly convergent .
+</text>
+</doc>

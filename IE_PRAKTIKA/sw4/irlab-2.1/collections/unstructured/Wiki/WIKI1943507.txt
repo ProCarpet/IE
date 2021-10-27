@@ -1,0 +1,3 @@
+Halbring
+
+Der Ausdruck '''Halbring''' bzw. '''Semiring''' bezeichnet in der Mathematik* eine algebraische Struktur, siehe [[Halbring (Algebraische Struktur)]]* ein Mengensystem, siehe [[Halbring (Mengensystem)]]{{Begriffsklärung}}

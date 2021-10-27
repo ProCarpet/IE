@@ -1,0 +1,3 @@
+Bibliotheksportal
+
+Ein '''Bibliotheksportal''' ist im ursprünglichen Wortsinn der (markante Haupt-) Eingang in das Gebäude einer [[Bibliothek]]. Heute wird der Begriff auch abstrakt verwendet, als:*informationstechnischer Zugang zum Bestand und Katalogsystem einer Bibliothek über ein Computernetzwerk, siehe [[Portal (Informatik)]]*ein [[Webportal]] zum gemeinsamen Zugriff auf die Ressourcen mehrerer zusammengeschlossener Bibliotheken oder Archive (siehe u.A. [[Bibliotheksverbund]]){{Begriffsklärung}}

@@ -1,0 +1,9 @@
+<doc>
+<recordId>138</recordId>
+<text>
+.I 208
+.W
+has the effect of initial stresses,  on the frequencies of vibration of
+circular cylindrical shells,  been investigated .
+</text>
+</doc>

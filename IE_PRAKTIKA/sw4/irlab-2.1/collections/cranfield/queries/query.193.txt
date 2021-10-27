@@ -1,0 +1,8 @@
+<doc>
+<recordId>193</recordId>
+<text>
+.I 296
+.W
+general methods of solving clamped plate problems .
+</text>
+</doc>

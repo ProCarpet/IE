@@ -1,0 +1,9 @@
+<doc>
+<recordId>94</recordId>
+<text>
+.I 142
+.W
+what is the theoretical heat transfer rate at the stagnation point of a
+blunt body .
+</text>
+</doc>

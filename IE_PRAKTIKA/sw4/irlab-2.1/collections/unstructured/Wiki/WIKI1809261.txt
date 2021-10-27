@@ -1,0 +1,3 @@
+Flächensatz
+
+Der Begriff '''Flächensatz''' bezeichnet:* Das zweite [[Keplergesetz]] der Planetenbewegung (konstante Fläche pro Zeit) * einige Formeln aus der [[Geometrie]],** z.&nbsp;B. die ''[[Heronsche Formel]]'', Varianten des ''[[Kathetensatz]]es'' und den ''Flächensatz von [[Gronwall]]''* die Querschnitts-Proportionalität bei der [[Schwereanomalie|Schwerewirkung]] von Störkörpern in der [[Potentialtheorie]]* den Preis einer [[Flächeneinheit]] bei [[Immobilie]]n.{{Begriffsklärung}}{{SORTIERUNG:Flachensatz}}

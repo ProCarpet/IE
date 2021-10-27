@@ -1,0 +1,3 @@
+MediaWiki:Mostimages-summary
+
+Diese [[Hilfe:Spezialseiten|Spezialseite]] zeigt eine Liste der meistbenutzten Dateien.

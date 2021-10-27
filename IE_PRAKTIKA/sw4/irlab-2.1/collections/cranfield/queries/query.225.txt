@@ -1,0 +1,9 @@
+<doc>
+<recordId>225</recordId>
+<text>
+.I 365
+.W
+what design factors can be used to control lift-drag ratios at mach
+numbers above 5 .
+</text>
+</doc>

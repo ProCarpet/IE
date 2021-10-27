@@ -1,0 +1,10 @@
+<doc>
+<recordId>120</recordId>
+<text>
+.I 175
+.W
+are previous analyses of circumferential thermal buckling of circular
+cylindrical shells unnecessarily involved or even inaccurate due to the
+assumed forms of buckling mode .
+</text>
+</doc>

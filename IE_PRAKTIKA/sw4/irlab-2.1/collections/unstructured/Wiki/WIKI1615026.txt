@@ -1,0 +1,3 @@
+Projektionssatz (Begriffsklärung)
+
+'''Projektionssatz''' (von [[latein|lat.]] ''proicere'', „vorwärts werfen“) steht für* einen Satz der Geometrie, der bestimmte Seitenlängen und Winkel in einem Dreieck in Beziehung setzt, siehe [[Formelsammlung Trigonometrie#Projektionssatz]]* einer Verallgemeinerung des Kathetensatzes, siehe [[Projektionssatz (Dreieck)]]* einen Satz der Funktionalanalysis zur Existenz und Eindeutigkeit orthogonaler Zerlegungen, siehe [[Projektionssatz]]* einen Satz der Theoretischen Informatik, der ein hinreichendes Kriterium für Nichtentscheidbarkeit liefert, siehe [[Projektionssatz (Informatik)]].{{Begriffsklärung}}

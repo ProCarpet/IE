@@ -1,0 +1,9 @@
+<doc>
+<recordId>56</recordId>
+<text>
+.I 097
+.W
+to what extent can readily available steady-state aerodynamic data be
+utilized to predict lifting-surface flutter characteristics .
+</text>
+</doc>

@@ -1,0 +1,9 @@
+<doc>
+<recordId>176</recordId>
+<text>
+.I 267
+.W
+some approximate analytical heat conduction solutions using methods
+other than biot's principle .
+</text>
+</doc>

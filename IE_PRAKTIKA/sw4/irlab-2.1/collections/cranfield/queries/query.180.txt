@@ -1,0 +1,8 @@
+<doc>
+<recordId>180</recordId>
+<text>
+.I 273
+.W
+how does scale height vary with altitude in an atmosphere .
+</text>
+</doc>

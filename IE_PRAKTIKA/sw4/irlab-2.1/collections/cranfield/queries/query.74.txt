@@ -1,0 +1,10 @@
+<doc>
+<recordId>74</recordId>
+<text>
+.I 116
+.W
+how significant is the possible pressure of a dissociated free stream
+with respect to the realization of hypersonic simulation in high
+enthalpy wind tunnels .
+</text>
+</doc>

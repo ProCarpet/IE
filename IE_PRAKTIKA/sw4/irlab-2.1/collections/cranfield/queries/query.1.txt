@@ -1,0 +1,9 @@
+<doc>
+<recordId>1</recordId>
+<text>
+.I 001
+.W
+what similarity laws must be obeyed when constructing aeroelastic models
+of heated high speed aircraft .
+</text>
+</doc>

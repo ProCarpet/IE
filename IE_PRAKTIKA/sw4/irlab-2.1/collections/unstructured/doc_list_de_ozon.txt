@@ -1,0 +1,12 @@
+./collections/unstructured/Ozon/Antarktis.html
+./collections/unstructured/Ozon/Ausdehnung.html
+./collections/unstructured/Ozon/Laserdrucker.html
+./collections/unstructured/Ozon/Ozon.html
+./collections/unstructured/Ozon/Ozone.html
+./collections/unstructured/Ozon/Ozonloch.html
+./collections/unstructured/Ozon/Ozonschicht.html
+./collections/unstructured/Ozon/Schwarzes_Loch.html
+./collections/unstructured/Ozon/Schwimmbad.html
+./collections/unstructured/Ozon/Smog.html
+./collections/unstructured/Ozon/gleichartig.htm
+./collections/unstructured/Ozon/artfremd.htm

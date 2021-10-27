@@ -1,0 +1,10 @@
+<doc>
+<recordId>64</recordId>
+<text>
+.I 105
+.W
+can't the static deflection shapes be used in predicting flutter in
+place of vibrational shapes . if so,  can we provide a justification by
+means of an example .
+</text>
+</doc>

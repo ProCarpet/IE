@@ -1,0 +1,8 @@
+<doc>
+<recordId>148</recordId>
+<text>
+.I 218
+.W
+papers on small deflection theory for buckling of sandwich cylinders .
+</text>
+</doc>

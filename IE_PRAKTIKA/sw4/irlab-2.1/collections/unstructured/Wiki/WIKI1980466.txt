@@ -1,0 +1,3 @@
+MediaWiki:Autosumm-new
+
+[[Hilfe:Zusammenfassung und Quellen#Auto-Zusammenfassung|AZ]]: Die Seite wurde neu angelegt: $1

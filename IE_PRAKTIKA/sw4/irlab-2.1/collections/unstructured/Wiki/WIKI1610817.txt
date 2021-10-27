@@ -1,0 +1,3 @@
+MediaWiki:Ipbcreateaccount
+
+Erstellung von Benutzerkonten verhindern (Nutzer mit dieser IP-Adresse können keine Benutzerkonten anlegen)

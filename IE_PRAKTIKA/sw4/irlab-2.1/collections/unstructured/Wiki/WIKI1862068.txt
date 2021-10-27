@@ -1,0 +1,3 @@
+MediaWiki:Newimages-summary
+
+Diese [[Hilfe:Spezialseiten|Spezialseite]] zeigt die zuletzt hochgeladenen Dateien an.

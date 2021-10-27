@@ -1,0 +1,3 @@
+Fehlerwahrscheinlichkeit
+
+Die '''Fehlerwahrscheinlichkeit''' kann sein:* eine Angabe über [[empirisch]]e [[Häufigkeit]]en oder [[Erwartungswert]]e von [[Ausfallrate]]n, [[Pannenstatistik]], Übertragungs[[fehlerrate]]n, [[Bitfehlerhäufigkeit]], etc.* die Wahrscheinlichkeit für den [[Fehler 1. Art]] und [[Fehler 2. Art]] in der [[Testtheorie]].{{Begriffsklärung}}

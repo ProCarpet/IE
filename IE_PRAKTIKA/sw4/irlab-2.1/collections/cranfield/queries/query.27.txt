@@ -1,0 +1,9 @@
+<doc>
+<recordId>27</recordId>
+<text>
+.I 052
+.W
+how is the design of ring or part ring wings by linear theory affected
+by thickness .
+</text>
+</doc>

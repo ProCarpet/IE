@@ -1,0 +1,9 @@
+<doc>
+<recordId>213</recordId>
+<text>
+.I 336
+.W
+what is the effect on cylinder buckling of a circumferential stress
+system that varies in the axial direction .
+</text>
+</doc>

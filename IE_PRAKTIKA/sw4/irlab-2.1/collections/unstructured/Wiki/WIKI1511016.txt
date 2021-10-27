@@ -1,0 +1,3 @@
+MediaWiki:Autoredircomment
+
+[[Hilfe:Zusammenfassung und Quellen#Auto-Zusammenfassung|AZ]]: Weiterleitung nach [[$1]] erstellt

@@ -1,0 +1,10 @@
+<doc>
+<recordId>119</recordId>
+<text>
+.I 173
+.W
+what is the effect of initial axisymmetric deviations from circularity
+on the non linear (large-deflection) load-deflection response of
+cylinders under hydrostatic pressure .
+</text>
+</doc>

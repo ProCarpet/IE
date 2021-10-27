@@ -1,0 +1,3 @@
+Satz von Hartogs
+
+In der Mathematik gibt es mehrere als '''Satz von Hartogs''' bezeichnete Sätze des Mathematikers [[Friedrich Moritz Hartogs]] (1874–1943): * [[Lemma von Hartogs]] (manchmal auch als ''Kontinuitätssatz von Hartogs'' bezeichnet) über die Fortsetzung holomorpher Funktionen in einem Polyzylinder* [[Kontinuitätssatz von Hartogs]] (Verallgemeinerung des ''Lemmas von Hartogs'') über die Fortsetzung holomorpher Funktionen in einer Hartogsfigur* [[Satz von Hartogs (Funktionentheorie)]] über die Holomorphie von Funktionen in mehreren Variablen* [[Satz von Hartogs (Mengenlehre)]] darüber, dass es immer eine größere wohlgeordnete Menge gibt{{Begriffsklärung}}

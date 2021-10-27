@@ -1,0 +1,8 @@
+<doc>
+<recordId>14</recordId>
+<text>
+.I 027
+.W
+papers on shock-sound wave interaction .
+</text>
+</doc>

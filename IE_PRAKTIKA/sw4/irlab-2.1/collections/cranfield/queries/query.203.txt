@@ -1,0 +1,9 @@
+<doc>
+<recordId>203</recordId>
+<text>
+.I 315
+.W
+are simple empirical methods of any use for estimating pressure
+distribution in cones .
+</text>
+</doc>

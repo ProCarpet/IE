@@ -1,0 +1,3 @@
+Basissatz
+
+'''Basissatz''' bezeichnet * einen empirischen Beobachtungssatz, siehe [[Beobachtungssatz]]* einen mathematischen Satz aus der algebraischen Geometrie, siehe [[Hilbertscher Basissatz]]* in der Theoretischen Chemie und der Molekülphysik eine Linearkombination von Funktionen, die ein Molekülorbital approximieren, s.&nbsp;[[Hartree-Fock-Methode #Basissätze|hier]]* eine vorangestellte Überblicksinformation bei der strukturierten Textwiedergabe.* Die Kurzform von [[Basiszinssatz]]{{Begriffsklärung}}

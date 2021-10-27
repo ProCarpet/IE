@@ -1,0 +1,10 @@
+<doc>
+<recordId>187</recordId>
+<text>
+.I 288
+.W
+has anyone analytically or experimentally investigated the effects of
+internal pressure on the buckling of circular-cylindrical shells under
+bending .
+</text>
+</doc>

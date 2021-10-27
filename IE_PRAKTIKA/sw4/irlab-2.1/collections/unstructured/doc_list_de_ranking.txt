@@ -1,0 +1,4 @@
+./collections/unstructured/Ranking/A.html
+./collections/unstructured/Ranking/B.html
+./collections/unstructured/Ranking/C.html
+./collections/unstructured/Ranking/D.html

@@ -1,0 +1,9 @@
+<doc>
+<recordId>11</recordId>
+<text>
+.I 022
+.W
+is it possible to find an analytical,  similar solution of the strong
+blast wave problem in the newtonian approximation .
+</text>
+</doc>

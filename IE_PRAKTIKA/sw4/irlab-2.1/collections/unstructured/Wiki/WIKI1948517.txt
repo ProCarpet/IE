@@ -1,0 +1,3 @@
+MediaWiki:Autosumm-replace
+
+[[Hilfe:Zusammenfassung und Quellen#Auto-Zusammenfassung|AZ]]: Der Seiteninhalt wurde durch einen anderen Text ersetzt.

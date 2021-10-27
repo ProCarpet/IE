@@ -1,0 +1,9 @@
+<doc>
+<recordId>182</recordId>
+<text>
+.I 275
+.W
+effects of leading-edge bluntness on the flutter characteristics of some
+square-planform double-wedge airfoils at mach numbers less than 15.4.
+</text>
+</doc>

@@ -1,0 +1,9 @@
+<doc>
+<recordId>12</recordId>
+<text>
+.I 023
+.W
+how can the aerodynamic performance of channel flow ground effect
+machines be calculated .
+</text>
+</doc>

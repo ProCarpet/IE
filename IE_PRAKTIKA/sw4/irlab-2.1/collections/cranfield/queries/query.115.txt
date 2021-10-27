@@ -1,0 +1,10 @@
+<doc>
+<recordId>115</recordId>
+<text>
+.I 168
+.W
+is the problem of similarity for representative investigations of
+aeroelastic effects in heated flow as intractable as previous investigations
+imply .
+</text>
+</doc>

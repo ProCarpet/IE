@@ -1,0 +1,3 @@
+Satz von Weierstraß
+
+Folgende Sätze werden nach [[Karl Weierstraß]] als '''Satz von Weierstraß''' bezeichnet:*der [[Stetigkeit#Satz vom Minimum und Maximum|Satz vom Minimum und Maximum]] zur Existenz von Extrema *der [[Satz von Bolzano-Weierstraß]] über konvergente Teilfolgen*der [[Satz von Stone-Weierstraß]] über die Approximation stetiger Funktionen*der [[Satz von Weierstraß-Casorati]] aus der Funktionentheorie*der [[Weierstraßscher Produktsatz|Produktsatz von Weierstraß]] aus der Funktionentheorie*der [[weierstraßscher Konvergenzsatz|weierstraßsche Konvergenzsatz]] aus der Funktionentheorie{{Begriffsklärung}}

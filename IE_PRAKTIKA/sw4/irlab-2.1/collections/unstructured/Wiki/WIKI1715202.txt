@@ -1,0 +1,3 @@
+Diffie
+
+'''Diffie''' ist der Nachname mehrerer Personen:*[[Joe Diffie]] (* 1958), US-amerikanischer Country-Sänger*[[Whitfield Diffie]] (* 1944), US-amerikanischer Mathematiker und Kryptologe'''Siehe auch:'''* [[Decisional-Diffie-Hellman-Problem]] (kurz DDH), Variante des Computational-Diffie-Hellman-Problems (CDH)* [[Diffie-Hellman-Schlüsselaustausch]] oder Diffie-Hellman-Merkle-Schlüsselaustausch, Protokoll aus dem Bereich der Kryptografie{{Begriffsklärung}}

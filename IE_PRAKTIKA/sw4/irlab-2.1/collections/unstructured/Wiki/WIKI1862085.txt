@@ -1,0 +1,3 @@
+MediaWiki:Listredirects-summary
+
+Diese [[Hilfe:Spezialseiten|Spezialseite]] listet Weiterleitungen auf.

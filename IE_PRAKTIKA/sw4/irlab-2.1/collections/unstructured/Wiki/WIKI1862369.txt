@@ -1,0 +1,3 @@
+MediaWiki:Unwatchedpages-summary
+
+Diese [[Hilfe:Spezialseiten|Spezialseite]] zeigt alle Artikel, die derzeit kein Benutzer auf seiner [[Hilfe:Beobachtungsliste|Beobachtungsliste]] hat. Da sie unbeobachtet sind, besteht das Risiko, dass Vandalismus erst spät auffällt.

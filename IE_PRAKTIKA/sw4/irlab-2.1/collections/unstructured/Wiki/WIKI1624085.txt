@@ -1,0 +1,3 @@
+Spielstand
+
+'''Spielstand''' bezeichnet* einen abgesicherten Zwischenstand bei einem Computerspiel, siehe [[Savegame]]* einen Programmzustand bei einem Computerprogramm, siehe [[Savestate]]{{Begriffsklärung}}

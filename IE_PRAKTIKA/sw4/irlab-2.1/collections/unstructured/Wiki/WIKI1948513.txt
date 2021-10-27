@@ -1,0 +1,3 @@
+MediaWiki:Autosumm-blank
+
+[[Hilfe:Zusammenfassung und Quellen#Auto-Zusammenfassung|AZ]]: Die Seite wurde geleert.

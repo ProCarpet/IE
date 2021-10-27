@@ -1,0 +1,3 @@
+MediaWiki:Categorytree-header
+
+{{MediaWiki:Specialpage-helplink|id=categorytree-help|link=Hilfe:Kategoriebaum|alt=Hilfe zum Kategoriebaum}}Zeigt für die angegebene Kategorie die Unterkategorien in einer Baumstruktur. Diese Seite benötigt bestimmte [[JavaScript]]-Funktionen ([[Ajax (Programmierung)|Ajax]]) und funktioniert möglicherweise nicht, wenn JavaScript ausgeschaltet ist oder ein sehr alter Browser verwendet wird.

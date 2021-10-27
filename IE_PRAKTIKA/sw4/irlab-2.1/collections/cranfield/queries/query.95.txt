@@ -1,0 +1,8 @@
+<doc>
+<recordId>95</recordId>
+<text>
+.I 143
+.W
+what is the theoretical heat transfer distribution around a hemisphere .
+</text>
+</doc>

@@ -1,0 +1,10 @@
+<doc>
+<recordId>98</recordId>
+<text>
+.I 147
+.W
+will forward or apex located controls be effective at low subsonic
+speeds and how do they compare with conventional trailing-edge
+flaps .
+</text>
+</doc>

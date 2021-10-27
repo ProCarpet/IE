@@ -1,0 +1,9 @@
+<doc>
+<recordId>166</recordId>
+<text>
+.I 252
+.W
+are there experimental results on the stability of a compressible
+boundary layer induced by a moving wave .
+</text>
+</doc>

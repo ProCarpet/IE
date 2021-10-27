@@ -1,0 +1,8 @@
+<doc>
+<recordId>109</recordId>
+<text>
+.I 160
+.W
+panels subjected to aerodynamic heating .
+</text>
+</doc>

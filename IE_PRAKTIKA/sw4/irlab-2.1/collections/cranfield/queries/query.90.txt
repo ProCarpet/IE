@@ -1,0 +1,8 @@
+<doc>
+<recordId>90</recordId>
+<text>
+.I 138
+.W
+recent data on shock-induced boundary-layer separation .
+</text>
+</doc>

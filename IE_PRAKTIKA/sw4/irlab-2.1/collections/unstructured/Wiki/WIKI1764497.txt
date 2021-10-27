@@ -1,0 +1,3 @@
+Kostenfunktion
+
+'''Kostenfunktion''' steht für:* [[Kostenfunktion (Wirtschaft)]], eine Darstellungsform von Kostenverläufen innerhalb der Wirtschaftswissenschaften* eine Möglichkeit zur Abschätzung der Komplexität eines Algorithmus innerhalb der Informatik, siehe [[O-Notation]]{{Begriffsklärung}}

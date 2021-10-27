@@ -1,0 +1,9 @@
+<doc>
+<recordId>96</recordId>
+<text>
+.I 145
+.W
+has anyone investigated the unsteady lift distributions on finite
+wings in subsonic flow .
+</text>
+</doc>

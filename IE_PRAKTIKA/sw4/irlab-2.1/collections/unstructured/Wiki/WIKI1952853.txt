@@ -1,0 +1,3 @@
+Trinomialkoeffizient
+
+Das Wort '''Trinomialkoeffizient''' wird in der [[Mathematik]] für verschiedene Begriffe verwendet:* für die Koeffizienten von <math>(a+b+c)^n</math>, also die dritten [[Multinomialkoeffizient]]en; vgl. [[Pascalsche Pyramide]],* für die Koeffizienten von <math>(1+x+x^2)^n</math>, siehe dazu [[Trinomial Triangle]].{{Begriffsklärung}}

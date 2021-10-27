@@ -1,0 +1,3 @@
+MediaWiki:Ancientpages-summary
+
+<div class="mw-editinginterface">Diese Spezialseite ist au{{ß}}er Betrieb.</div>Diese [[Hilfe:Spezialseiten|Spezialseite]] zeigt eine Liste von Artikeln, die sehr lange nicht mehr geändert wurden. Diese Spezialseite ist hilfreich, um Artikel zu finden, die gegebenenfalls aktualisiert werden müssen.

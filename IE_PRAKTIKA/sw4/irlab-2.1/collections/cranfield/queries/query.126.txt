@@ -1,0 +1,8 @@
+<doc>
+<recordId>126</recordId>
+<text>
+.I 184
+.W
+thrust vector control by fluid injection -dash papers .
+</text>
+</doc>

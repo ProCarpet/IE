@@ -1,0 +1,3 @@
+Kantenfilter
+
+'''Kantenfilter''' steht für:* eine Gruppe mathematischer Operationen zur [[Kantendetektion]] in der Bildverarbeitung* einen Typ optischer Filter, siehe [[Filter_(Optik)#Kantenfilter|Kantenfilter]]{{Begriffsklärung}}

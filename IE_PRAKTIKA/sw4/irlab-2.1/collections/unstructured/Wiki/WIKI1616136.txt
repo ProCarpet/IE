@@ -1,0 +1,3 @@
+Laufbedingung
+
+Unter einer '''Laufbedingung''' wird verstanden:* Ein unbestimmter Zustand, je nach Randbedingungen, siehe [[Race Condition]].* Eine [[Aussagenlogik|Bedingung]], die erfüllt/wahr sein muss, und ''vor'' jedem Durchlauf einer [[Schleife (Programmierung)|Schleife]] geprüft wird.{{Begriffsklärung}}

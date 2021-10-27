@@ -1,0 +1,8 @@
+<doc>
+<recordId>184</recordId>
+<text>
+.I 283
+.W
+work on small-oscillation re-entry motions .
+</text>
+</doc>

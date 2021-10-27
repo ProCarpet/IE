@@ -1,0 +1,9 @@
+<doc>
+<recordId>47</recordId>
+<text>
+.I 082
+.W
+what are the existing solutions for hypersonic viscous interactions over
+an insulated flat plate .
+</text>
+</doc>

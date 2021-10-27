@@ -1,0 +1,9 @@
+<doc>
+<recordId>215</recordId>
+<text>
+.I 339
+.W
+is it possible to predict the shape of a shroud which will allow
+simulation of the nose region flow field for a sphere in hypersonic flow .
+</text>
+</doc>

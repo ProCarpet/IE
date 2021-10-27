@@ -1,0 +1,9 @@
+<doc>
+<recordId>150</recordId>
+<text>
+.I 223
+.W
+what is the magnitude of second-order wing-body interference
+at high supersonic mach number .
+</text>
+</doc>

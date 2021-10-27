@@ -1,0 +1,9 @@
+<doc>
+<recordId>186</recordId>
+<text>
+.I 285
+.W
+how can wing-body,  flow field interference effects be approximated
+rationally .
+</text>
+</doc>

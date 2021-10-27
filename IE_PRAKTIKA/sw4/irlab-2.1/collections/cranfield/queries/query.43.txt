@@ -1,0 +1,9 @@
+<doc>
+<recordId>43</recordId>
+<text>
+.I 074
+.W
+can the transonic flow around an arbitrary smooth thin airfoil be
+analysed in a simple approximate way .
+</text>
+</doc>

@@ -1,0 +1,3 @@
+Testsystem
+
+Das Wort '''Testsystem''' hat mehrere Bedeutungen:* Programmsysteme zur Testwahl, -applikation und -auswertung für die [[Computerunterstützte Psychodiagnostik]]* eine in der Regel komplexe [[Testbatterie]] mit sehr unterschiedlichen Tests aus verschiedenen Bereichen in der [[Differentielle Psychologie|Differentiellen Psychologie]]* ein Bewertungsstrategie in der [[Arbeits-_und_Organisationspsychologie|Arbeits-, Betriebs- und Organisationspsychologie]], siehe auch [[Assessment-Center]]* die technische-organisatorische Infrastruktur für Softwaretests, siehe auch [[Testumgebung]]{{Begriffsklärung}}

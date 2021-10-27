@@ -1,0 +1,3 @@
+Messbarkeit
+
+'''Messbarkeit''' steht* in der angewandten Physik und Messtechnik für die methodischen Kriterien, Messdaten zu erzielen, siehe [[Messbarkeit (Messtechnik)]]* in der Wissenschaftstheorie und theoretischen Metrologie für die prinzipiellen Aspekte über Messen an sich, siehe [[Operationalisierung]]* in der Mathematik für eine spezielle Abbildung zwischen Messräumen, siehe [[messbare Funktion]]* in der Mathematik für eine Eigenschaft einer Menge, siehe [[Messbarkeit nach Carathéodory]]{{Begriffsklärung}}

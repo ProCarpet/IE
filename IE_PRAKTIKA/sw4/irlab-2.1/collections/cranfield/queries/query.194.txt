@@ -1,0 +1,10 @@
+<doc>
+<recordId>194</recordId>
+<text>
+.I 297
+.W
+how can the analytical solution of the buckling strength of a uniform
+circular cylinder loaded in axial compression be refined so as to lower
+the buckling load .
+</text>
+</doc>

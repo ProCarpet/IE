@@ -1,0 +1,3 @@
+Zugriff
+
+Der Begriff '''Zugriff''' hat mehrere Bedeutungen:*Der Zugang zu Informationen **in der Informatik Prozesse oder Programmstrukturen wie [[wahlfreier Zugriff]] (Direktzugriff), [[Sequentieller Zugriff]] und [[Speicherzugriff]]**[[Zugriffskontrolle]]; [[Zugriffsrecht]]*die Möglichkeit, etwas physisch zu fassen, z.&nbsp;B. **das Habhaftwerden einer Person unter Anwendung einer Taktik, vgl. [[Zugriff (Polizei)]] und [[Stürmung]]**die Möglichkeit, etwas Gegenständliches zu fassen, z.&nbsp;B. aus einer Haftzelle heraus''Siehe auch:''* [[Zugriffsverfahren (Netzwerk)]]{{Begriffsklärung}}

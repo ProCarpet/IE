@@ -1,0 +1,3 @@
+Minimierung
+
+'''Minimierung''' bzw. ''minimieren'' steht für:* Suche nach dem Minimum, siehe [[Optimierung (Mathematik)]]* Ausblenden eines Fensters und Verschieben in die Fensterleiste, siehe [[Fenster (Computer)]]* Datenmodell mit kleinstmöglichen Restfehlern, siehe [[Methode der kleinsten Quadrate]]{{Begriffsklärung}}

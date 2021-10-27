@@ -1,0 +1,9 @@
+<doc>
+<recordId>41</recordId>
+<text>
+.I 071
+.W
+has anyone investigated and developed a simple model for the vortex
+wake behind a cruciform wing .
+</text>
+</doc>

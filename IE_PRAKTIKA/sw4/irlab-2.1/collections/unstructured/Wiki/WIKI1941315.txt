@@ -1,0 +1,3 @@
+Leibniz-Formel
+
+'''Leibniz-Formel''' steht in der Mathematik für:* eine Formel zum Berechnen von Determinanten, siehe [[Determinante#Leibniz-Formel]].* eine Verallgemeinerung der Produktregel, siehe [[Produktregel#Höhere Ableitungen]].{{Begriffsklärung}}

@@ -1,0 +1,3 @@
+MediaWiki:Brokenredirects-summary
+
+Diese [[Hilfe:Spezialseiten|Spezialseite]] listet [[Hilfe:Weiterleitung|Weiterleitungen]] auf nicht existierende Artikel auf.

@@ -1,0 +1,3 @@
+Speichermedium
+
+Ein '''Speichermedium''' ist ein Stoff oder ein Objekt (oder umgangssprachlich auch ein ''Gerät'') zum [[Speichern]]:* in der digitalen Datenverarbeitung zum Speichern von Daten, siehe [[Datenspeicher]]* in der Technik zum Speichern von Energie, siehe [[Energiespeicher]]** speziell für thermische Energie, siehe [[Wärmespeicher]] und [[Latentwärmespeicher]]** für elektro-chemische Energie, siehe [[Akkumulator]] und [[Batterie (Elektrotechnik)|Batterie]]** für elektrische Energie, siehe [[Kondensator (Elektrotechnik)]]** für kinetische Energie, siehe [[Schwungrad]]** für potentielle Energie, siehe [[Feder (Technik)]] und [[Speicherkraftwerk (Wasser)|Speicherkraftwerk]]* ein Sammelbehälter oder -Gebäude für Schüttgüter, siehe [[Silo]]{{Begriffsklärung}}

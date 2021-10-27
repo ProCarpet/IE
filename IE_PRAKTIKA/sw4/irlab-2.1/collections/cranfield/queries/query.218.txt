@@ -1,0 +1,8 @@
+<doc>
+<recordId>218</recordId>
+<text>
+.I 348
+.W
+what is the heat transfer to a blunt body in the absence of vorticity .
+</text>
+</doc>

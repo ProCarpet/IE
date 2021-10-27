@@ -1,0 +1,8 @@
+<doc>
+<recordId>91</recordId>
+<text>
+.I 139
+.W
+what interference effects are likely at transonic speeds .
+</text>
+</doc>

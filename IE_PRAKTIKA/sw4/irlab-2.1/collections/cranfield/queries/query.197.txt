@@ -1,0 +1,8 @@
+<doc>
+<recordId>197</recordId>
+<text>
+.I 300
+.W
+how is fatigue damage estimated using the normal long-hand method .
+</text>
+</doc>

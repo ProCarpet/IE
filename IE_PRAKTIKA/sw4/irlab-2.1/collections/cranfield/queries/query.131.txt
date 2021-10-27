@@ -1,0 +1,10 @@
+<doc>
+<recordId>131</recordId>
+<text>
+.I 200
+.W
+what agreement is found between theoretically predicted instability
+times and experimentally measured collapse times for compressed columns
+in creep .
+</text>
+</doc>

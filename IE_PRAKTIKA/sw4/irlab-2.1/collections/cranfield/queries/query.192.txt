@@ -1,0 +1,8 @@
+<doc>
+<recordId>192</recordId>
+<text>
+.I 295
+.W
+papers dealing with uniformly loaded sectors .
+</text>
+</doc>

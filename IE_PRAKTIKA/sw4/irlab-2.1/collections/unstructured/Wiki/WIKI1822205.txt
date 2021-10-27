@@ -1,0 +1,3 @@
+Lp-Norm
+
+'''<math>L^p</math>-Norm''' bezeichnet:* eine Norm auf dem Raum der p-integrierbaren Funktionen, siehe [[Lp-Raum]]'''<math>\ell^p</math>-Norm''' bezeichnet:* die Norm auf dem Raum p-summierbaren Folgen, siehe [[Folgenraum#lp]]{{Begriffsklärung}}{{SORTIERUNG:Lpnorm}}

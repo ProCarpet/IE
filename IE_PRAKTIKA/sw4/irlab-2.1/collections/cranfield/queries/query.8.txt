@@ -1,0 +1,9 @@
+<doc>
+<recordId>8</recordId>
+<text>
+.I 013
+.W
+what methods -dash exact or approximate -dash are presently available
+for predicting body pressures at angle of attack.
+</text>
+</doc>

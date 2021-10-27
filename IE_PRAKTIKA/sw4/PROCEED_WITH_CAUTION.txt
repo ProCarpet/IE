@@ -1,0 +1,3 @@
+In diesem Verzeichnis finden Sie Beta-Software.
+
+Diese ist für das Praktikum 3 nicht zwingend nötig. Nur zur Verwendung bei persönlichem Interesse.

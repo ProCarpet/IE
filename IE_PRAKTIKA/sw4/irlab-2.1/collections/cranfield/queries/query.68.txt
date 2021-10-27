@@ -1,0 +1,10 @@
+<doc>
+<recordId>68</recordId>
+<text>
+.I 109
+.W
+what possible techniques are available for computing the injection
+distribution corresponding to an isothermal transpiration cooled
+hemisphere .
+</text>
+</doc>

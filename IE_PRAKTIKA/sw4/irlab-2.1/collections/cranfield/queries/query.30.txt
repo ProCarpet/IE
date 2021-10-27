@@ -1,0 +1,8 @@
+<doc>
+<recordId>30</recordId>
+<text>
+.I 055
+.W
+papers on flow visualization on slender conical wings .
+</text>
+</doc>

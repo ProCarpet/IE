@@ -1,0 +1,8 @@
+<doc>
+<recordId>103</recordId>
+<text>
+.I 153
+.W
+is the information on the buckling of sandwich sphere available .
+</text>
+</doc>

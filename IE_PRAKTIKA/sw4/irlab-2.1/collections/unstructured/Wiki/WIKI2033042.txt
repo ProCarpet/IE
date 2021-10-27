@@ -1,0 +1,3 @@
+Flachheit
+
+Mit '''Flachheit''' werden verschiedene Gegebenheiten bezeichnet:* [[Flachheit (Algebra)]] von Moduln ist eine Verallgemeinerung des Begriffs "freier Modul"* [[Flachheit (Systemtheorie)]] bildet die Grundlage für [[Flachheitsbasierte Regelung|Flachheitsbasierte Regler]]{{Begriffsklärung}}

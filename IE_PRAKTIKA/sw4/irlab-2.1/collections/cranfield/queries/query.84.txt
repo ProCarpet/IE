@@ -1,0 +1,10 @@
+<doc>
+<recordId>84</recordId>
+<text>
+.I 131
+.W
+references on the methods available for accurately estimating
+aerodynamic heat transfer to conical bodies for both laminar and turbulent
+flow .
+</text>
+</doc>

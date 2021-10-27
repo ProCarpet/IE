@@ -1,0 +1,10 @@
+<doc>
+<recordId>73</recordId>
+<text>
+.I 114
+.W
+what role does the effect of chemical reaction (particularly when out of
+equilibrium) play in the similitude laws governing hypersonic flows over
+slender aerodynamic bodies .
+</text>
+</doc>

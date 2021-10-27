@@ -1,0 +1,3 @@
+Schleifensatz
+
+Als '''Schleifensatz''' werden bezeichnet:* in der 3-dimensionalen Topologie eine Version von [[Dehns Lemma]]* in der theoretischen Informatik das [[Pumping-Lemma]]{{Begriffsklärung}}

@@ -1,0 +1,8 @@
+<doc>
+<recordId>102</recordId>
+<text>
+.I 152
+.W
+basic dynamic characteristics of structures continuous over many spans .
+</text>
+</doc>

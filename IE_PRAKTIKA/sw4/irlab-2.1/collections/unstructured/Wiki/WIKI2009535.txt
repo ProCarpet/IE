@@ -1,0 +1,3 @@
+Logger
+
+'''Logger''' steht für:* [[Logger (Schiffstyp)]], einen Schiffstypen, der sich im 18. Jahrhundert entwickelte* ein Logger für den Fischfang, der [[Loggerfischerei|Heringslogger]]* [[Datenlogger]], ein Gerät zur Aufzeichnung von Messwerten* [[Logger (GNSS)]], ein GPS-basiertes Gerät zur Aufzeichnung von Position und Höhe* Eine [[Softwarekomponente]] in einem [[Computerprogramm]], die in eine [[Logdatei]] schreibt. {{Begriffsklärung}}

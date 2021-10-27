@@ -1,0 +1,3 @@
+Satz von Abel
+
+Als '''Satz von Abel''' werden in der Mathematik bezeichnet:* [[Satz von Abel-Ruffini]], eine Aussage über die Nichtlösbarkeit von Polynomialgleichungen höheren Grades durch Radikale* [[Abelsches Lemma]], eine Aussage über den Konvergenzbereich von Potenzreihen* [[Abelscher Grenzwertsatz]], eine Aussage über den Rand des Konvergenzbereichs von Potenzreihen{{Begriffsklärung}}

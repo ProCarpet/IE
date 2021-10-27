@@ -1,0 +1,9 @@
+<doc>
+<recordId>66</recordId>
+<text>
+.I 107
+.W
+can the procedure of matching inner and outer solutions for a viscous
+flow problem be applied when the main stream is a shear flow .
+</text>
+</doc>

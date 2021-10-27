@@ -1,0 +1,9 @@
+<doc>
+<recordId>67</recordId>
+<text>
+.I 108
+.W
+can series expansions be found for the boundary layer on a flat plate in
+a shear flow .
+</text>
+</doc>

@@ -1,0 +1,3 @@
+Präemption
+
+Das Wort '''Präemption''' (vom englischen ''{{lang|en|pre-empt}}'' für „jemandem zuvorkommen, um ihn von etwas abzuhalten“; Ursprung lateinisch ''{{lang|la|praeemere}}'' „durch Vorkaufsrecht erwerben“) bezeichnet:* in der Politik das aktive Vorbeugen eines möglicherweise bevorstehenden Ereignisses, siehe [[Präemptivschlag]]* in der Informatik die zeitweise Unterbrechung der Bearbeitung einzelner Prozesse zugunsten anderer, siehe [[Multitasking#Präemptives Multitasking]]* in der Medizin (als selten benutztes Ersatzwort für ''Prävention'') Erkrankungen vorbeugende Maßnahmen, siehe [[Krankheitsprävention]]'''Siehe auch:'''* [[Prävention]]{{Begriffsklärung}}{{SORTIERUNG:Praemption}}

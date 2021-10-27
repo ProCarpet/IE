@@ -1,0 +1,3 @@
+Penetrationstest
+
+Ein '''Penetrationstest''' ist:* in der Netzwerktechnik eine Methode, Sicherheitsschwachstellen festzustellen, siehe [[Penetrationstest (Informatik)]]* in der Medizin eine Untersuchung zur Abklärung einer Sterilität, siehe [[Spermienpenetrationstest]]* in der Technik ein Sicherheitstest bei Akkumulatoren, bei welchen die Umhüllung durchstoßen wird, um einen inneren Kurzschluss zu provozieren (oft als Nageltest bezeichnet){{Begriffsklärung}}[[en:penetration test]]

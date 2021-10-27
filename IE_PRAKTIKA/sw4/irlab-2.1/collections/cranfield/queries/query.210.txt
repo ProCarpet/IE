@@ -1,0 +1,10 @@
+<doc>
+<recordId>210</recordId>
+<text>
+.I 332
+.W
+has anyone analytically investigated the stabilizing influence of soft
+elastic cores on the buckling strength of cylindrical shells subjected
+to non-uniform external pressure .
+</text>
+</doc>

@@ -1,0 +1,9 @@
+<doc>
+<recordId>202</recordId>
+<text>
+.I 314
+.W
+how accurate are existing analytical theories in estimating pressure
+distributions on cones at incidence,  at hypersonic speeds .
+</text>
+</doc>

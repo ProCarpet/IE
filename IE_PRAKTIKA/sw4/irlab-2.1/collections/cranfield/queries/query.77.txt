@@ -1,0 +1,9 @@
+<doc>
+<recordId>77</recordId>
+<text>
+.I 120
+.W
+how close is the comparison of the shock layer theory with existing
+experiments in the low reynolds number (merged-layer) regime .
+</text>
+</doc>

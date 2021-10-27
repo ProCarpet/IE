@@ -1,0 +1,8 @@
+<doc>
+<recordId>222</recordId>
+<text>
+.I 355
+.W
+has anyone investigated the shear buckling of stiffened plates .
+</text>
+</doc>

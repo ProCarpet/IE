@@ -1,0 +1,9 @@
+<doc>
+<recordId>81</recordId>
+<text>
+.I 126
+.W
+what are wind-tunnel corrections for a two-dimensional aerofoil
+mounted off-centre in a tunnel .
+</text>
+</doc>

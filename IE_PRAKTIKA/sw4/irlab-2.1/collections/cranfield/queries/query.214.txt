@@ -1,0 +1,9 @@
+<doc>
+<recordId>214</recordId>
+<text>
+.I 338
+.W
+can non-linear shallow shell analysis be reduced to an engineering
+technique by use of the matrix .
+</text>
+</doc>

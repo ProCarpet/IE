@@ -1,0 +1,3 @@
+MediaWiki:Deadendpages-summary
+
+<div class="mw-editinginterface">Diese Spezialseite ist ausser Funktion.</div>Diese [[Hilfe:Spezialseiten|Spezialseite]] zeigt eine Liste von Artikeln, die keine Links auf andere Artikel oder nur Links auf noch nicht vorhandene Artikel enthalten. Ein Leser, der auf solchen Seiten gelandet ist, kann nur noch zurück, wie in einer Sackgasse. Um dies zu verhindern, sollte geprüft werden, ob sinnvolle Links auf bereits existierende Artikel angelegt werden können, um den Leser weiterführen zu können.

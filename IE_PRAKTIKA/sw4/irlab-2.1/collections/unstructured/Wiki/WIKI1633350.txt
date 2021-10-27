@@ -1,0 +1,3 @@
+Charge-coupled Device
+
+Unter einem „'''Charge-coupled Device'''“ ('''CCD'''; übersetzt etwa „ladungsgekoppeltes Bauelement“) werden folgende elektronische Bauelemente oder Schaltungen verstanden:* [[CCD-Sensor]] für lichtempfindliche elektronische Bildaufnahmeelemente, wie sie in digitalen Kameras verwendet werden* [[Eimerkettenspeicher]], eine Schaltung zu zeitlichen Verzögerung von elektrischen Signalen{{Begriffsklärung}}

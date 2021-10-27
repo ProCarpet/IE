@@ -1,0 +1,8 @@
+<doc>
+<recordId>108</recordId>
+<text>
+.I 158
+.W
+what data is there on the fatigue of structures under acoustic loading .
+</text>
+</doc>

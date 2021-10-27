@@ -1,0 +1,3 @@
+Golomb
+
+'''Golomb:'''* [[Solomon W. Golomb]]** [[Golomb-Lineal]]** [[Golomb-Code]]* [[Elijahu Golomb]]{{Begriffsklärung}}

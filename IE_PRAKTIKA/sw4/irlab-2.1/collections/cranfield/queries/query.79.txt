@@ -1,0 +1,9 @@
+<doc>
+<recordId>79</recordId>
+<text>
+.I 122
+.W
+have any aerodynamic derivatives been measured at hypersonic mach
+numbers and comparison been made with theoretical work .
+</text>
+</doc>

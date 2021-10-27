@@ -1,0 +1,9 @@
+<doc>
+<recordId>173</recordId>
+<text>
+.I 264
+.W
+references on lyapunov's method on the stability of linear
+differential equations with periodic coefficients .
+</text>
+</doc>

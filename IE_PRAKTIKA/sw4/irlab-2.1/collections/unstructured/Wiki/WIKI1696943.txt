@@ -1,0 +1,3 @@
+Dos-box
+
+'''DOS-Box''' steht für:* [[DOSBox]], ein Programm, das Betriebssystem DOS auf damals gebräuchlicher Hardware emuliert* [[Eingabeaufforderung]], ein Fenster mit dem Befehlszeilen verarbeitet werden können{{Begriffsklärung}}

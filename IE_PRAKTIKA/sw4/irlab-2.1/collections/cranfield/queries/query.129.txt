@@ -1,0 +1,9 @@
+<doc>
+<recordId>129</recordId>
+<text>
+.I 190
+.W
+has anyone derived simplified pump design equation from the fundamental
+three-dimensional equations for incompressible nonviscous flow .
+</text>
+</doc>

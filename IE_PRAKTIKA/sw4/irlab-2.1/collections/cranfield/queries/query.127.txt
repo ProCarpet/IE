@@ -1,0 +1,9 @@
+<doc>
+<recordId>127</recordId>
+<text>
+.I 187
+.W
+is it possible to obtain a reasonably simple analytical solution to the
+heat equation for an exponential (in time) heat input .
+</text>
+</doc>

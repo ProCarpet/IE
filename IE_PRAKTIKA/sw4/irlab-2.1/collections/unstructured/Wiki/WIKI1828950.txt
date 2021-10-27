@@ -1,0 +1,3 @@
+Geradenbündel
+
+'''Geradenbündel''' steht für:* [[Geradenbündel (Elementargeometrie)]], in der synthetischen projektiven Geometrie die Menge aller Geraden, die durch einen Punkt gehen* [[Geradenbündel (Faserbündel)]], in Topologie, Differentialgeometrie und algebraischer Geometrie ein Vektorbündel vom Rang&nbsp;1{{Begriffsklärung}}

@@ -1,0 +1,9 @@
+<doc>
+<recordId>105</recordId>
+<text>
+.I 155
+.W
+what is the effect of an internal liquid column on the breathing
+vibrations of a cylindrical shell .
+</text>
+</doc>

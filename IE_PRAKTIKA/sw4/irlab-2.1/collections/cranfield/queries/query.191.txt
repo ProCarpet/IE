@@ -1,0 +1,9 @@
+<doc>
+<recordId>191</recordId>
+<text>
+.I 294
+.W
+what is the criterion for true panel flutter,  as opposed to small
+amplitude vibration arising from acoustic disturbances .
+</text>
+</doc>

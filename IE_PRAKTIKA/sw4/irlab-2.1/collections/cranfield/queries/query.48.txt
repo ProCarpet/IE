@@ -1,0 +1,8 @@
+<doc>
+<recordId>48</recordId>
+<text>
+.I 083
+.W
+what controls leading-edge attachment at transonic speeds .
+</text>
+</doc>

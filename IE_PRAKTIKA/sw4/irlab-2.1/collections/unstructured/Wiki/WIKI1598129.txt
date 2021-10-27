@@ -1,0 +1,3 @@
+Varianzschätzung
+
+Mit '''Varianzschätzung''' werden in der Statistik zwei verwandte Begrifflichkeiten bezeichnet:* die [[Varianzschätzung (Schätzung der Varianz der Grundgesamtheit)]]* die [[Varianzschätzung (Schätzung der Varianz einer Schätzfunktion)]]{{Begriffsklärung}}{{SORTIERUNG:Varianzschatzung}}

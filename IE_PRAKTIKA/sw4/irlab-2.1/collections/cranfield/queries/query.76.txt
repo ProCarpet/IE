@@ -1,0 +1,10 @@
+<doc>
+<recordId>76</recordId>
+<text>
+.I 119
+.W
+how far can one trust the linear viscosity-temperature solution
+assumed in some of the analyses of hypersonic shock layer at low
+reynolds number .
+</text>
+</doc>

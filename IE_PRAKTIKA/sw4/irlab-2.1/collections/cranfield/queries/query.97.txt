@@ -1,0 +1,9 @@
+<doc>
+<recordId>97</recordId>
+<text>
+.I 146
+.W
+what information is available for dynamic response of airplanes to
+gusts  or blasts in the subsonic regime .
+</text>
+</doc>

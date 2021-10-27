@@ -1,0 +1,9 @@
+<doc>
+<recordId>199</recordId>
+<text>
+.I 303
+.W
+have non-linear large deflection analyses been conducted for shell
+shapes other than conical .
+</text>
+</doc>

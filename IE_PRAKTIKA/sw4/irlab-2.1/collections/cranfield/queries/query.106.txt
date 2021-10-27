@@ -1,0 +1,8 @@
+<doc>
+<recordId>106</recordId>
+<text>
+.I 156
+.W
+experimental techniques in shell vibration .
+</text>
+</doc>

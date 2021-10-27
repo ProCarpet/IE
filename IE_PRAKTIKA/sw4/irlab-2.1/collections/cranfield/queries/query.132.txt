@@ -1,0 +1,8 @@
+<doc>
+<recordId>132</recordId>
+<text>
+.I 201
+.W
+theoretical studies of creep buckling .
+</text>
+</doc>

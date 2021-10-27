@@ -1,0 +1,10 @@
+<doc>
+<recordId>82</recordId>
+<text>
+.I 128
+.W
+how do kuchemann's and multhopp's methods for calculating lift
+distributions on swept wings in subsonic flow compare with each other and with
+experiment .
+</text>
+</doc>

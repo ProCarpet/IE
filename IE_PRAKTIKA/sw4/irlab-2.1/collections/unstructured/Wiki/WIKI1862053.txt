@@ -1,0 +1,3 @@
+MediaWiki:Mostcategories-summary
+
+Diese [[Hilfe:Spezialseiten|Spezialseite]] zeigt Artikel, die in besonders viele Kategorien einsortiert sind, an. In einigen Fällen können durch gegenseitige Über- oder Unterordnung redundante Kategorien aus den jeweiligen Artikeln entfernt werden.
