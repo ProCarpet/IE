@@ -52,4 +52,47 @@ Exercise 5)
     i can exclude terms or weight them negatively whilst ii can only emphasize terms.
 
 Exercise 6)
-    a)
+    a) without stopword elimination the top doesn't change at all. (with stopword elimination the would be striped from the querry)
+    b) it is still neccessary to reduce the calculation and indexing load. 
+    c) 1201
+    d) 1291 yes it does unexpectedly 
+    e) 1201 it matches the first querry surprisingly
+    f) the top results change between "the" and "the jet"
+       top results bm25 jet       = 997, 695, 1195
+       top results bm25 the jet   = 350, 973, 997
+       top results tfidf jet      = 695, 1195, 997
+       top results tfidf the jet  = 695, 1195, 997
+       2 of the top 3 results the same across 3 querrys and one is found in every querry. I dont know why. 
+    g) I can see the value in certain stop words especially in combination with other words but i fail to see the value 
+       having stopwords in a bag of random words from a querry dissconeceted from each other. 
+
+Exercise 7) 
+    a) zurich : df=2 cf=2
+       zero : df=137 cf= 198
+    b) 139 (querry zurich)
+    c) 0 else the df's would not add up to the combined querry 
+    d) wave = 168, wavelength = 6 , (wave wavelength) = 172
+       (168+6)-172= 4 
+       4 documents contain both
+    e) air = 189 , wing = 181, aircraft = 77
+       containing: air^wing!aircraft = (air + wing- air^wing)- (air + aircraft - air ^ aircraft) - (wing aircraft) 
+       (189+181-357) - (189+77- 251) - 
+       (13)-(15)-()
+       //todo
+
+Exercise 8) 
+    i) unmodulated no stopword no stemming = 2 documents 
+       unmodulated in index df=2 cf=3 
+       unmodulated found in documents 3 times 
+       it uses term count most likely. 
+    ii) nothing would change.
+    iii) the frequenzy would go up with a stopword remover. 
+
+Exercise 9) 
+    a) 466
+    b) 433
+    c) 466
+    d) it is working correctly 433 only contains "wing" and 466 contains "vapor" and "wing" 
+       so it will show up with both querrys at the top. The top result for aircraft doesnt contain wing or air indicating 
+       there is no overlap between wing and aircraft. Aircraft and air also have no overlap in the top document of air. 
+
