@@ -7,6 +7,7 @@ import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.sql.Array;
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -15,27 +16,133 @@ public class MiniRetrieve {
     private static final String DOCUMENT_PATH = "documents/";
     private static final String QUERRY_PATH = "queries/";
 
-    private static Map<Integer, File> querries;
-    private static Map<Integer, File> documents;
-    //word (fname->freq)
-    private static Map<String, Map<File, Integer>> invIndex;
-    private static Map<File, String> nonInvIndex;
-
+    private static Map<Integer, File> myQueries;
+    private static Map<Integer, File> myDocuments;
+    //Indexes
+    private static final Map<String, Map<File, Integer>> invIndex = new HashMap<>();
+    private static final Map<File, Map<String,Integer>> nonInvIndex = new HashMap<>();
+    private static final Map<File, Map<String, Integer>> querryIndex = new HashMap<>();
+    //MiniRetrive components
+    private static Map<File,Double> accumulator;
+    private static Map<File,Double> dNorm = new HashMap<>();
+    private static Map<String,Double> idf = new HashMap<>();
+    private static double qNorm = 0.0;
+    private static double totalNumberOfDocuments = 0.0;
 
     public static void main(String[] args) {
-        querries = readDirectory(QUERRY_PATH);
-        documents = readDirectory(DOCUMENT_PATH);
-        invIndex = new HashMap<>();
+        myQueries = readDirectory(QUERRY_PATH);
+        myDocuments = readDirectory(DOCUMENT_PATH);
         //System.out.println(tokenizeString(querries.get(1)));
-        indexing(querries,documents);
+        createNonAndInvIndex(myDocuments);
+        totalNumberOfDocuments = nonInvIndex.size();
+        createQuerryIndex(myQueries);
+        createIDFsAndDocNormalizers(nonInvIndex);
+        processQueries(myQueries);
 
     }
-    //todo dont save documents as a string in hashmap
-    private static void indexing(Map<Integer, File> querries, Map<Integer, File> documents) {
+
+    private static void processQueries(Map<Integer, File> queries){
+        for (File querie : queries.values()) {
+            qNorm = 0.0;
+            accumulator = new HashMap<>();
+            for (String term : tokenizeString(readFile(querie))) {
+                if(!idf.containsKey(term)){
+                    idf.put(term,Math.log(1+totalNumberOfDocuments));
+                }
+                double b = querryIndex.get(querie).get(term) * idf.get(term);
+                qNorm += (b*b);
+                if(invIndex.containsKey(term)){
+                    for (File doc : invIndex.get(term).keySet()) {
+                        //todo is idf.get(term) equal $idf
+                        double a = invIndex.get(term).get(doc)* idf.get(term);
+                        accumulator.put(doc,a*b);
+                    }
+                }
+            }
+            //2e Teil hier
+            qNorm = Math.sqrt(qNorm);
+            for (File doc : accumulator.keySet()) {
+                //normalize lenght of vectors
+                accumulator.put(doc, (accumulator.get(doc)/(dNorm.get(doc)*qNorm)));
+            }
+            sortMapAndPrint(accumulator);
+        }
+    }
+
+    private static void sortMapAndPrint(Map<File,Double> map){
+        List<Double> values = new ArrayList<>(map.values());
+        Object[] temp = values.toArray();
+        Double[] valuesArr = new Double[temp.length];
+        int index = 0;
+        for (Object o : temp) {
+            valuesArr[index] = (Double) o;
+            index++;
+        }
+        Arrays.sort(valuesArr);
+        Map<File,Double> result = new HashMap<>();
+        int rank = 0;
+        for (Double rankedValue : valuesArr) {
+            for (File file : map.keySet()) {
+                //todo this neads to stop when this condition is true once else a file gets skiped if there are two filse with the same ranked value
+                if(map.get(file) == rankedValue){
+                    result.put(file,rankedValue);
+                    System.out.println("Rank=" + rank +" file name=" +file.getName() + " ranked value=" +rankedValue);
+                }
+            }
+            rank++;
+        }
+    }
+
+    class DoubleComperator implements Comparator<Double>{
+        @Override
+        public int compare(Double o1, Double o2) {
+            return o1>o1?1:0;
+        }
+    }
+
+
+    private static void createIDFsAndDocNormalizers(Map<File, Map<String,Integer>> nonInvIndex){
+        for (File doc : nonInvIndex.keySet()) {
+            dNorm.put(doc,0.0);
+            for(String term : tokenizeString(readFile(doc))){
+                //log((1+totalNumberOfDocuments)/(1+documentFrequency))
+                //todo what is documentFrequency
+                double IDFvalue = Math.log((1.0+totalNumberOfDocuments)/(1.0+1.0/totalNumberOfDocuments));
+                idf.put(term,IDFvalue);
+                double a = nonInvIndex.get(doc).get(term)* idf.get(term);
+                dNorm.put(doc,dNorm.get(doc)+a*a);
+            }
+            dNorm.put(doc,Math.sqrt(dNorm.get(doc)));
+        }
+    }
+
+    private static void createQuerryIndex(Map<Integer, File> querries){
+        for (File querry : querries.values()) {
+            List<String> terms = tokenizeString(readFile(querry));
+            for (String term : terms) {
+                //if nonInvIndex already contains a document and a term already containing that term one then increment
+                if(querryIndex.containsKey(querry) && querryIndex.get(querry).containsKey(term)){
+                    Map<String,Integer> mapofDocument = querryIndex.get(querry);
+                    mapofDocument.put(term,(mapofDocument.get(term)+1));
+                    // if nonInvIndex contains document but not that term then put term in doc with count1
+                }else if(querryIndex.containsKey(querry)){
+                    querryIndex.get(querry).put(term,1);
+                    // if doc is not in nonInvIndex then put it with the term it corresponds to
+                }else{
+                    Map<String,Integer> newMap = new HashMap<>();
+                    newMap.put(term,1);
+                    querryIndex.put(querry, newMap);
+                }
+            }
+        }
+
+    }
+
+    private static void createNonAndInvIndex( Map<Integer, File> documents) {
         for (File doc : documents.values()) {
             List<String> terms = tokenizeString(readFile(doc));
             for (String term : terms) {
-                //if invIndex already contains word and a doc already containing that term once increment
+                //if invIndex already contains word and a doc already containing that term once then increment
                 if (invIndex.containsKey(term) && invIndex.get(term).containsKey(doc)) {
                     Map<File, Integer> mapOfTerm = invIndex.get(term);
                     mapOfTerm.put(doc, (mapOfTerm.get(doc) + 1));
@@ -48,11 +155,28 @@ public class MiniRetrieve {
                     newMap.put(doc, 1);
                     invIndex.put(term, newMap);
                 }
+                //if nonInvIndex already contains a document and a term already containing that term one then increment
+                if(nonInvIndex.containsKey(doc) && nonInvIndex.get(doc).containsKey(term)){
+                    Map<String,Integer> mapofDocument = nonInvIndex.get(doc);
+                    mapofDocument.put(term,(mapofDocument.get(term)+1));
+                // if nonInvIndex contains document but not that term then put term in doc with count1
+                }else if(nonInvIndex.containsKey(doc)){
+                    nonInvIndex.get(doc).put(term,1);
+                // if doc is not in nonInvIndex then put it with the term it corresponds to
+                }else{
+                    Map<String,Integer> newMap = new HashMap<>();
+                    newMap.put(term,1);
+                    nonInvIndex.put(doc, newMap);
+                }
             }
         }
-        System.out.println(invIndex);
     }
 
+    /**
+     * Splits a string into individual words, trims spaces of, removes punctuation and maps to lowercase.
+     * @param fullString String to be tokenized
+     * @return List containing all words of String.
+     */
     private static List<String> tokenizeString(String fullString) {
         List<String> rawTokens = Arrays.asList(fullString.split(" "));
         List<String> trimmedTokens = rawTokens.stream().map(String::trim).collect(Collectors.toList());
@@ -61,6 +185,11 @@ public class MiniRetrieve {
         return lowercasedToken;
     }
 
+    /**
+     * Reas a file and returns the content as a string;
+     * @param file File
+     * @return Contents of file as String
+     */
     private static String readFile(File file) {
             String output = "";
             try (BufferedReader bf = new BufferedReader(new FileReader(file))) {
@@ -78,6 +207,11 @@ public class MiniRetrieve {
         return output;
     }
 
+    /**
+     * Reads a direcotry and returns all files and their id as Key
+     * @param path path to directory ALL FILE NAMES MUST BE NUMBERS!
+     * @return Map wit Files as value and their ID as name
+     */
     private static Map<Integer, File> readDirectory(String path) {
         HashMap<Integer, File> map = new HashMap<>();
         try (Stream<Path> paths = Files.walk(Paths.get(path))) {
