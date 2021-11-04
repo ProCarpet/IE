@@ -65,6 +65,7 @@ public class MiniRetrieve {
                 //normalize lenght of vectors
                 accumulator.put(doc, (accumulator.get(doc)/(dNorm.get(doc)*qNorm)));
             }
+            //todo impelment accumulator as a linkedmap or such that it can be sorted.
             sortMapAndPrint(accumulator);
         }
     }
