@@ -38,13 +38,12 @@ public class MiniRetrieve {
         createQuerryIndex(myQueries);
         createIDFsAndDocNormalizers(nonInvIndex);
         processQueries(myQueries);
-
     }
 
     private static void processQueries(Map<Integer, File> queries){
         for (File querie : queries.values()) {
             qNorm = 0.0;
-            accumulator = new HashMap<>();
+            accumulator = new LinkedHashMap<>();
             for (String term : tokenizeString(readFile(querie))) {
                 if(!idf.containsKey(term)){
                     idf.put(term,Math.log(1+totalNumberOfDocuments));
@@ -59,46 +58,33 @@ public class MiniRetrieve {
                     }
                 }
             }
+
             //2e Teil hier
             qNorm = Math.sqrt(qNorm);
             for (File doc : accumulator.keySet()) {
                 //normalize lenght of vectors
                 accumulator.put(doc, (accumulator.get(doc)/(dNorm.get(doc)*qNorm)));
             }
-            //todo impelment accumulator as a linkedmap or such that it can be sorted.
-            sortMapAndPrint(accumulator);
+            Map.Entry<File, Double> result = sortLinkedMap(accumulator);
+            System.out.println("Top result for querrie = " + querie.getName() + " is file " + result.getKey() +
+                    " with rating " + result.getValue());
         }
     }
 
-    private static void sortMapAndPrint(Map<File,Double> map){
-        List<Double> values = new ArrayList<>(map.values());
-        Object[] temp = values.toArray();
-        Double[] valuesArr = new Double[temp.length];
-        int index = 0;
-        for (Object o : temp) {
-            valuesArr[index] = (Double) o;
-            index++;
-        }
-        Arrays.sort(valuesArr);
-        Map<File,Double> result = new HashMap<>();
-        int rank = 0;
-        for (Double rankedValue : valuesArr) {
-            for (File file : map.keySet()) {
-                //todo this neads to stop when this condition is true once else a file gets skiped if there are two filse with the same ranked value
-                if(map.get(file) == rankedValue){
-                    result.put(file,rankedValue);
-                    System.out.println("Rank=" + rank +" file name=" +file.getName() + " ranked value=" +rankedValue);
-                }
+    /**
+     *
+     * @param map to be sorted by value attribute
+     * @return the Document with the highest double rating
+     */
+    private static Map.Entry<File, Double> sortLinkedMap(Map<File,Double> map){
+        List<Map.Entry<File, Double>> entries =
+                new ArrayList<Map.Entry<File, Double>>(map.entrySet());
+        Collections.sort(entries, new Comparator<Map.Entry<File, Double>>() {
+            public int compare(Map.Entry<File, Double> a, Map.Entry<File, Double> b){
+                return a.getValue().compareTo(b.getValue());
             }
-            rank++;
-        }
-    }
-
-    class DoubleComperator implements Comparator<Double>{
-        @Override
-        public int compare(Double o1, Double o2) {
-            return o1>o1?1:0;
-        }
+        });
+        return entries.get(map.size()-1);
     }
 
 
