@@ -46,13 +46,12 @@ public class MiniRetrieve {
             accumulator = new LinkedHashMap<>();
             for (String term : tokenizeString(readFile(querie))) {
                 if(!idf.containsKey(term)){
-                    idf.put(term,Math.log(1+totalNumberOfDocuments));
+                    idf.put(term,Math.log(1.0+totalNumberOfDocuments));
                 }
                 double b = querryIndex.get(querie).get(term) * idf.get(term);
                 qNorm += (b*b);
                 if(invIndex.containsKey(term)){
                     for (File doc : invIndex.get(term).keySet()) {
-                        //todo is idf.get(term) equal $idf
                         double a = invIndex.get(term).get(doc)* idf.get(term);
                         accumulator.put(doc,a*b);
                     }
@@ -93,8 +92,7 @@ public class MiniRetrieve {
             dNorm.put(doc,0.0);
             for(String term : tokenizeString(readFile(doc))){
                 //log((1+totalNumberOfDocuments)/(1+documentFrequency))
-                //todo what is documentFrequency
-                double IDFvalue = Math.log((1.0+totalNumberOfDocuments)/(1.0+1.0/totalNumberOfDocuments));
+                double IDFvalue = Math.log((1.0+totalNumberOfDocuments)/(1.0+invIndex.get(term).size()));
                 idf.put(term,IDFvalue);
                 double a = nonInvIndex.get(doc).get(term)* idf.get(term);
                 dNorm.put(doc,dNorm.get(doc)+a*a);
