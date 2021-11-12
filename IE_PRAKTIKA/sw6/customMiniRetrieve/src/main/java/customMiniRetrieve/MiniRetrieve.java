@@ -52,8 +52,13 @@ public class MiniRetrieve {
                 qNorm += (b*b);
                 if(invIndex.containsKey(term)){
                     for (File doc : invIndex.get(term).keySet()) {
-                        double a = invIndex.get(term).get(doc)* idf.get(term);
-                        accumulator.put(doc,a*b);
+                        double a = invIndex.get(term).get(doc) * idf.get(term);
+                        if(accumulator.containsKey(doc)) {
+                            double accuValue = accumulator.get(doc);
+                            accuValue += a*b;
+                            accumulator.put(doc, accuValue);
+                        }
+                        else accumulator.put(doc, a*b);
                     }
                 }
             }
@@ -62,11 +67,13 @@ public class MiniRetrieve {
             qNorm = Math.sqrt(qNorm);
             for (File doc : accumulator.keySet()) {
                 //normalize lenght of vectors
-                accumulator.put(doc, (accumulator.get(doc)/(dNorm.get(doc)*qNorm)));
+                accumulator.put(doc, (accumulator.get(doc)*1000/(dNorm.get(doc)*qNorm)));
             }
-            Map.Entry<File, Double> result = sortLinkedMap(accumulator);
-            System.out.println("Top result for querrie = " + querie.getName() + " is file " + result.getKey() +
-                    " with rating " + result.getValue());
+            List<Map.Entry<File, Double>> results = sortLinkedMap(accumulator);
+            for(int i =0; i < 10 ; i++){
+                System.out.println(querie.toString() + " Q0 " + results.get(results.size()-i-1).getKey()
+                        +"   "+ results.get(results.size()-i-1).getValue()+ " miniretrive");
+            }
         }
     }
 
@@ -75,7 +82,7 @@ public class MiniRetrieve {
      * @param map to be sorted by value attribute
      * @return the Document with the highest double rating
      */
-    private static Map.Entry<File, Double> sortLinkedMap(Map<File,Double> map){
+    private static  List<Map.Entry<File, Double>> sortLinkedMap(Map<File,Double> map){
         List<Map.Entry<File, Double>> entries =
                 new ArrayList<Map.Entry<File, Double>>(map.entrySet());
         Collections.sort(entries, new Comparator<Map.Entry<File, Double>>() {
@@ -83,7 +90,7 @@ public class MiniRetrieve {
                 return a.getValue().compareTo(b.getValue());
             }
         });
-        return entries.get(map.size()-1);
+        return entries;
     }
 
 
@@ -163,10 +170,10 @@ public class MiniRetrieve {
      * @return List containing all words of String.
      */
     private static List<String> tokenizeString(String fullString) {
-        List<String> rawTokens = Arrays.asList(fullString.split(" "));
+        List<String> rawTokens = Arrays.asList(fullString.split("\\W+"));
         List<String> trimmedTokens = rawTokens.stream().map(String::trim).collect(Collectors.toList());
-        List<String> cleanedTokens = trimmedTokens.stream().map(s -> s.replace("\\.\\,\\;\\<\\>\\/\\?\\!\\(\\)\\[\\]\\{\\}", "")).collect(Collectors.toList());
-        List<String> lowercasedToken = cleanedTokens.stream().map(String::toLowerCase).collect(Collectors.toList());
+        //List<String> cleanedTokens = trimmedTokens.stream().map(s -> s.replace("\\W+", "")).collect(Collectors.toList());
+        List<String> lowercasedToken = trimmedTokens.stream().map(String::toLowerCase).collect(Collectors.toList());
         return lowercasedToken;
     }
 
