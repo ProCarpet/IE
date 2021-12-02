@@ -48,11 +48,11 @@ public class MiniRetrieve {
                 if(!idf.containsKey(term)){
                     idf.put(term,Math.log(1.0+totalNumberOfDocuments));
                 }
-                double b = querryIndex.get(querie).get(term) * idf.get(term);
+                double b = idf.get(term) * querryIndex.get(querie).get(term);
                 qNorm += (b*b);
                 if(invIndex.containsKey(term)){
                     for (File doc : invIndex.get(term).keySet()) {
-                        double a = invIndex.get(term).get(doc) * idf.get(term);
+                        double a = idf.get(term) * invIndex.get(term).get(doc);
                         if(accumulator.containsKey(doc)) {
                             double accuValue = accumulator.get(doc);
                             accuValue += a*b;
@@ -67,7 +67,7 @@ public class MiniRetrieve {
             qNorm = Math.sqrt(qNorm);
             for (File doc : accumulator.keySet()) {
                 //normalize lenght of vectors
-                accumulator.put(doc, (accumulator.get(doc)*1000/(dNorm.get(doc)*qNorm)));
+                accumulator.put(doc, (accumulator.get(doc)*1000.0/(dNorm.get(doc)*qNorm)));
             }
             List<Map.Entry<File, Double>> results = sortLinkedMap(accumulator);
             for(int i =0; i < 10 ; i++){
@@ -102,8 +102,8 @@ public class MiniRetrieve {
                 //log((1+totalNumberOfDocuments)/(1+documentFrequency))
                 double IDFvalue = Math.log((1.0+totalNumberOfDocuments)/(1.0+invIndex.get(term).size()));
                 idf.put(term,IDFvalue);
-                double a = nonInvIndex.get(doc).get(term)* idf.get(term);
-                dNorm.put(doc,dNorm.get(doc)+a*a);
+                double a =  idf.get(term) * nonInvIndex.get(doc).get(term);
+                dNorm.put(doc,a*a + dNorm.get(doc));
             }
             dNorm.put(doc,Math.sqrt(dNorm.get(doc)));
         }
@@ -152,7 +152,7 @@ public class MiniRetrieve {
                 if(nonInvIndex.containsKey(doc) && nonInvIndex.get(doc).containsKey(term)){
                     Map<String,Integer> mapofDocument = nonInvIndex.get(doc);
                     mapofDocument.put(term,(mapofDocument.get(term)+1));
-                // if nonInvIndex contains document but not that term then put term in doc with count1
+                // if nonInvIndex contains document but not that terresultsm then put term in doc with count1
                 }else if(nonInvIndex.containsKey(doc)){
                     nonInvIndex.get(doc).put(term,1);
                 // if doc is not in nonInvIndex then put it with the term it corresponds to
