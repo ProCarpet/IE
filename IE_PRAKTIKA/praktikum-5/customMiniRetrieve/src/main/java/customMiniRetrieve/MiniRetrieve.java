@@ -71,7 +71,8 @@ public class MiniRetrieve {
             }
             List<Map.Entry<File, Double>> results = sortLinkedMap(accumulator);
             for(int i =0; i < 10 ; i++){
-                System.out.println(querie.toString() + " Q0 " + results.get(results.size()-i-1).getKey()
+                System.out.println(querie.toString().substring(8) + " Q0 " +
+                        results.get(results.size()-i-1).getKey().toString().substring(10)
                         +"   "+ results.get(results.size()-i-1).getValue()+ " miniretrive");
             }
         }
