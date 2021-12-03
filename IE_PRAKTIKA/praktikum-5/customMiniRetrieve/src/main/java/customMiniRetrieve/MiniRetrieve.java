@@ -13,8 +13,12 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class MiniRetrieve {
-    private static final String DOCUMENT_PATH = "documents/";
-    private static final String QUERRY_PATH = "queries/";
+    //private static final String DOCUMENT_PATH = "documents/";
+    //private static final String QUERRY_PATH = "queries/";
+
+    private static final String DOCUMENT_PATH = "docs_ie_col/";
+    private static final String QUERRY_PATH = "queries_ie_col/";
+
 
     private static Map<Integer, File> myQueries;
     private static Map<Integer, File> myDocuments;
@@ -28,6 +32,7 @@ public class MiniRetrieve {
     private static Map<String,Double> idf = new HashMap<>();
     private static double qNorm = 0.0;
     private static double totalNumberOfDocuments = 0.0;
+    private static final TrecParser tercParser = new TrecParser();
 
     public static void main(String[] args) {
         myQueries = readDirectory(QUERRY_PATH);
@@ -41,6 +46,7 @@ public class MiniRetrieve {
     }
 
     private static void processQueries(Map<Integer, File> queries){
+        long start = System.currentTimeMillis();
         for (File querie : queries.values()) {
             qNorm = 0.0;
             accumulator = new LinkedHashMap<>();
@@ -70,12 +76,14 @@ public class MiniRetrieve {
                 accumulator.put(doc, (accumulator.get(doc)*1000.0/(dNorm.get(doc)*qNorm)));
             }
             List<Map.Entry<File, Double>> results = sortLinkedMap(accumulator);
-            for(int i =0; i < 10 ; i++){
-                System.out.println(querie.toString().substring(8) + " Q0 " +
-                        results.get(results.size()-i-1).getKey().toString().substring(10)
+            /*for(int i =0; i < 10 ; i++){
+                System.out.println(querie.toString().substring(8+7) + " Q0 " +
+                        results.get(results.size()-i-1).getKey().toString().substring(10+2)
                         +"   "+ results.get(results.size()-i-1).getValue()+ " miniretrive");
-            }
+            }*/
         }
+        long endTime = System.currentTimeMillis();
+        System.out.println("elapsed time =" + String.valueOf((endTime-start)/1000.0));
     }
 
     /**
