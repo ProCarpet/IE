@@ -1,0 +1,436 @@
+
+QuerryID=19982
+Querrie = please send abstracts on the source spectra of lightning    discharges
+investigation of ball lightning by means of models
+    experiments with gas discharges are described
+
+QuerryID=19982
+Querrie = please send abstracts on the source spectra of lightning    discharges
+investigation of ball lightning by means of models
+    experiments with gas discharges are described
+
+QuerryID=19982
+Querrie = please send abstracts on the source spectra of lightning    discharges
+the development of lightning discharges the observations
+    reported in above are discussed and thd theories are advanced
+    regarding the nature of lightning processes
+
+QuerryID=19982
+Querrie = please send abstracts on the source spectra of lightning    discharges
+radar echoes from lightning
+
+QuerryID=19982
+Querrie = please send abstracts on the source spectra of lightning    discharges
+geometrical transformation of impedance diagrams in of
+    september please change the last word in the abstract to
+    described
+
+QuerryID=35727
+Querrie = fast algorithm for context-free language recognition or    parsing
+an efficient context-free parsing algorithm a parsing
+    algorithm which seems to be the most efficient general
+    context-free algorithm known is described. it is similar to
+    both knuth's lr(k) algorithm and the familiar top-down
+    algorithm. it has a time bound proportional to n^3 (where n is
+    the length of the string being parsed) in general; it has a n^2
+    bound for unambiguous grammars; and it runs in linear time on a
+    large class of grammars, which seems to include most practical
+    context-free programming language grammars. in an empirical
+    comparison it appears to be superior to the top-down and
+    bottom-up algorithms studied by griffiths and petrick.
+    february, 1970 earley, j. syntax analysis, parsing,
+    context-free grammar, compilers, computational complexity 4.12
+    5.22 5.23 ca700205 jb february 14, 1978 10:35 am
+
+QuerryID=35727
+Querrie = fast algorithm for context-free language recognition or    parsing
+on context and ambiguity in parsing* february, 1964 ross,
+    d. t. ca640212 jb march 10, 1978 3:43 am
+
+QuerryID=35727
+Querrie = fast algorithm for context-free language recognition or    parsing
+fast response of magnetic amplifiers
+
+QuerryID=35727
+Querrie = fast algorithm for context-free language recognition or    parsing
+on the relative efficiencies of context-free grammar
+    recognizers a number of diverse recognition procedures that
+    have been proposed for parsing sentences with respect to a
+    context-free grammar are described in this paper by means of a
+    common device. each procedure is defined by giving an algorithm
+    for obtaining a nondeterministic turing machine recognizer that
+    is equivalent to a given context-free grammar. the
+    formalization of the turing machine has been chosen to make
+    possible particularly simple description of the parsing
+    procedures considered. an attempt has been made to compare
+    recognition efficiencies for the procedures defined. for a few
+    simple grammars and sentences a formal comparison has been
+    made. empirical comparison of the recognition of more realistic
+    programming languages such as lisp and algol has been made by
+    means of a program which simulates the turing machine on the
+    univac m-460 computer. several algorithms for producing
+    grammars equivalent to a given context-free grammar have been
+    considered, and the increase in recognition efficiency they
+    afford has been empirically investigated. may, 1965 griffiths,
+    t. v. petrick, s. r. ca650506 jb march 7, 1978 2:38 pm
+
+QuerryID=35727
+Querrie = fast algorithm for context-free language recognition or    parsing
+context-sensitive parsing this paper presents a canonical
+    form for context-sensitive derivations and a parsing algorithm
+    which finds each context-sensitive analysis once and only once.
+    the amount of memory required by the algorithm is essentially
+    no more than the required to store a single complete
+    derivation. in addition, a modified version of the basic
+    algorithm is presented which blocks infinite analyses for
+    grammars which contain loops. the algorithm is also compared
+    with several previous parsers for context-sensitive grammars
+    and general rewriting systems, and the difference between the
+    two types of analyses is discussed. the algorithm appears to be
+    complementary to an algorithm by s. kuno in several respects,
+    including the space-time trade-off and the degree of context
+    dependence involved. july, 1970 woods, w. a. context-sensitive
+    grammars, context-sensitive parsing, formal grammars, formal
+    language theory, parsing, parsing algorithms, recognition
+    algorithms 3.42 5.22 5.23 ca700707 jb february 10, 1978 4:43
+    pm
+
+QuerryID=24081
+Querrie = estimates of the density of ionization and temperature in    the solar corona
+intensities polarization and electron density of the
+    solar corona from photographs taken at the total solar eclipse
+    of february
+
+QuerryID=24081
+Querrie = estimates of the density of ionization and temperature in    the solar corona
+a new theory of the solar corona it is proposed that the
+    solar corona consists of trapped charged particles moving in
+    the magnetic fields of the sun experimental data are discussed
+    in terms of this model
+
+QuerryID=24081
+Querrie = estimates of the density of ionization and temperature in    the solar corona
+the physical condition of the solar corona a review paper
+    including about references
+
+QuerryID=24081
+Querrie = estimates of the density of ionization and temperature in    the solar corona
+radio emission in the outer corona
+
+QuerryID=24081
+Querrie = estimates of the density of ionization and temperature in    the solar corona
+measurement of plasma temperature and electron
+    density
+
+QuerryID=22423
+Querrie = mathematical expressions and graphs for the design of    transistorised tuned pass band amplifiers
+simplified design procedures for tuned transistor
+    amplifiers
+
+QuerryID=22423
+Querrie = mathematical expressions and graphs for the design of    transistorised tuned pass band amplifiers
+design of wide band tuned amplifiers amplifiers with
+    schienemann butterworth and tchebycheff band pass
+    characteristics are considered in detail and formulae design
+    curves and numerical examples are given
+
+QuerryID=22423
+Querrie = mathematical expressions and graphs for the design of    transistorised tuned pass band amplifiers
+stagger tuned band pass amplifiers a procedure is given
+    for designing narrow band amplifiers with either bandwidth or
+    rise time are specified data are included for single tuned
+    cascades with up to five stages see also of
+
+QuerryID=22423
+Querrie = mathematical expressions and graphs for the design of    transistorised tuned pass band amplifiers
+a general definition of pass band
+
+QuerryID=22423
+Querrie = mathematical expressions and graphs for the design of    transistorised tuned pass band amplifiers
+band pass filter design technique universal curves
+    provide design information for butterworth and tchebycheff
+    stagger tuned filter networks for band pass amplifiers required
+    number of stages centre frequency cut off frequencies and stage
+    gain requirements can be determined
+
+QuerryID=9125
+Querrie = addressing schemes for resources in networks; resource    addressing in network operating systems
+capability-based addressing various addressing schemes
+    making use of segment tables are examined. the inadequacies of
+    these schemes when dealing with shared addresses are explained.
+    these inadequacies are traced to the lack of an efficient
+    absolute address for objects in these systems. the direct use
+    of a capability as an address is shown to overcome these
+    difficulties because it provides the needed absolute address.
+    implementation of capability-based addressing is discussed. it
+    is predicted that the use of tags to identify capabilities will
+    dominate. a hardware address translation scheme which never
+    requires the modification of the representation of capabilities
+    is suggested. the scheme uses a main memory hash table for
+    obtaining a segment's location in main memory given its unique
+    code. the hash table is avoided for recently accessed segments
+    by means of a set of associative registers. a computer using
+    capability-based addressing may be substantially superior to
+    present systems on the basis of protection, simplicity of
+    programming conventions, and efficient implementation. july,
+    1974 fabry, r. s. addressing, capabilities, addressing
+    hardware, protection, protection hardware, shared addresses,
+    information sharing, operating systems, computer utility,
+    segmentation, tagged architecture 4.30 4.32 4.34 6.21 ca740706
+    jb january 17, 1978 12:39 pm
+
+QuerryID=9125
+Querrie = addressing schemes for resources in networks; resource    addressing in network operating systems
+addressing an array yi in k-dimensions by fortran for
+    analysis of variance march, 1963 garber, m. j. ca630309 jb
+    march 14, 1978 1:44 pm
+
+QuerryID=9125
+Querrie = addressing schemes for resources in networks; resource    addressing in network operating systems
+a practitioner's guide to addressing algorithms
+    (corrigendum) september, 1976 severance, d. g. duhne, r. a.
+    ca760909 jb january 4, 1978 8:43 am
+
+QuerryID=9125
+Querrie = addressing schemes for resources in networks; resource    addressing in network operating systems
+a process for the determination of addresses in variable
+    length addressing an algorithm is presented for the assignment
+    of instruction addresses and formats under the following
+    conditions: (1) the length of the instruction varies as a
+    function of the distance of the instruction from its target;
+    (2) there exists an optimality criterion which implies some
+    preferential choices subject to the addressing constraints.
+    this may be, for example, achieving the smallest number of long
+    instructions, in which case the total code length is minimized,
+    or minimizing the assigned address of a specified point in the
+    program. the algorithm is suitable for arbitrary program
+    structure and a choice of optimization criteria. june, 1976
+    frieder, g. saal, h. j. variable length addressing, assembler,
+    paging 4.11 4.12 ca760604 jb january 4, 1978 2:09 pm
+
+QuerryID=9125
+Querrie = addressing schemes for resources in networks; resource    addressing in network operating systems
+how to keep the addresses short an algorithm is presented
+    for minimizing the sum of the lengths of the blocks of coding
+    produced by an assembler or compiler when (1) the length of
+    each computer instruction is assumed to be either "long" or
+    "short" ("long," if the memory location addressed is more than
+    a predetermined distance from the current location; "short,"
+    otherwise), and (2) there are blocks of instructions whose
+    beginnings (origins) are separated by prespecified amounts. for
+    example, some computers permit either 8-bit addressing
+    (interpreted relative to the location counter) or full 16-bit
+    addressing of all of memory. when assembling or compiling two
+    or more blocks of instructions which have many mutual
+    references in such a computer, there is no simple iterative
+    procedure for keeping as many of the addresses short as
+    possible. this paper demonstrates that a wide class of problems
+    of this type can be formulated as covering problems solvable by
+    means of elementary arithmetic operations on the column vectors
+    of a ternary matrix. may, 1971 richards, d. l. addressing,
+    assembler, covering problem, integer programming,
+    variable-length addressing 4.11 4.12 4.21 5.41 ca710505 jb
+    february 3, 1978 2:40 pm
+
+QuerryID=14000
+Querrie = i would be pleased to receive any papers describing free    text retrieval packages like cairs, assasin, status, deco or    stairs, especially if the features of different packages are    compared, or if the implementation and use of a system is    described. i am especially interested in packages for minis and    micros and in any association between free text retrieval    packages and database management systems. minicomputers,    microcomputers, database management systems, free text    retrieval
+comparing the characteristics of applied program packages
+    of automated retrieval systems. discusses the characteristics,
+    advantages, and disadvantages of the applied programme packages
+    aspid, pegas, asod, aidoc, usm, and uss.
+
+QuerryID=14000
+Querrie = i would be pleased to receive any papers describing free    text retrieval packages like cairs, assasin, status, deco or    stairs, especially if the features of different packages are    compared, or if the implementation and use of a system is    described. i am especially interested in packages for minis and    micros and in any association between free text retrieval    packages and database management systems. minicomputers,    microcomputers, database management systems, free text    retrieval
+the use of computer-based packages in the teaching of
+    librarianship and information science. report of a seminar held
+    at manchester polytechnic 23-26 july 1979. in july 79, the
+    british library funded a 3-day seminar at manchester
+    polytechnic on the use of computer-based packages for teaching
+    librarianship and information science. as well as hearing about
+    the packages used, the seminar enabled representatives from
+    library and information science schools to hear about useful
+    teaching packages, to see them being run, and to use them
+    during the numerous practical sessions.
+
+QuerryID=14000
+Querrie = i would be pleased to receive any papers describing free    text retrieval packages like cairs, assasin, status, deco or    stairs, especially if the features of different packages are    compared, or if the implementation and use of a system is    described. i am especially interested in packages for minis and    micros and in any association between free text retrieval    packages and database management systems. minicomputers,    microcomputers, database management systems, free text    retrieval
+software for printed indexes' a guide. a descriptive
+    guide to software packages for printed, or page-format, index
+    production, giving details of supplier, computer and languages
+    to be used, memory requirements, input and output (including
+    indexer aids), cost, number of users, bibliography, and a
+    contact address. it was compiled to enable potential index
+    producers to acquaint themselves with existing packages and to
+    compare their own requirements with package capabilities before
+    approaching a software house for a custom-made package.
+
+QuerryID=14000
+Querrie = i would be pleased to receive any papers describing free    text retrieval packages like cairs, assasin, status, deco or    stairs, especially if the features of different packages are    compared, or if the implementation and use of a system is    described. i am especially interested in packages for minis and    micros and in any association between free text retrieval    packages and database management systems. minicomputers,    microcomputers, database management systems, free text    retrieval
+minicomputers and available packages. developments in the
+    computer field in recent years are described with particular
+    emphasis on the facilities available for the mechanisation of
+    library and information tasks. with the development of
+    minicomputers a new era opened up for information workers but a
+    major problem had to be overcome, namely the lack of suitable
+    software to provide those facilities. following the
+    introduction of ibm's stairs program for information storage
+    and retrieval on a large mainframe computer, similar programs
+    soon became available for use on the range of minicomputers
+    which had started to penetrate the market. many were specially
+    commissioned for library and information use; discusses cairs
+    and status. a major breakthrough came with the introduction of
+    word processors, particularly the programmable shared logic
+    systems. manufacturers started to produce specific software
+    packages, including information storage and retrieval programs,
+    for this type of equipment. examples of relevant hardware and
+    software and various applications are given.
+
+QuerryID=14000
+Querrie = i would be pleased to receive any papers describing free    text retrieval packages like cairs, assasin, status, deco or    stairs, especially if the features of different packages are    compared, or if the implementation and use of a system is    described. i am especially interested in packages for minis and    micros and in any association between free text retrieval    packages and database management systems. minicomputers,    microcomputers, database management systems, free text    retrieval
+data base management. january, 1975-may, 1981 (citations
+    from the international information service for the physics and
+    engineering communities data base). bibliography covers
+    research and development of software packages and
+    implementation of data base management systems into various
+    information systems. also considered are guidelines for the
+    optimisation and modelling of data bases.
+
+QuerryID=14536
+Querrie = i am interested in information and less developed    countries. this would include the particular problems of less    developed countries now, and their expected future problems    (such as electronic publishing). also, the information policies    of less developed countries and the factors which may affect    their practical implementation. what are the priorities and    suggested practical stages in the solution of problems and    implementation of policies. less developed countries, under    developed countries, developing countries.
+perception of the needs for scientific and technical
+    information in less developed countries. surveys the literature
+    emanating from less developed countries (ldcs) and
+    international agencies that deals with their perception of the
+    needs of ldcs for scientific and technical information (sti) in
+    relation to social and economic development. report not
+    available from ntis.
+
+QuerryID=14536
+Querrie = i am interested in information and less developed    countries. this would include the particular problems of less    developed countries now, and their expected future problems    (such as electronic publishing). also, the information policies    of less developed countries and the factors which may affect    their practical implementation. what are the priorities and    suggested practical stages in the solution of problems and    implementation of policies. less developed countries, under    developed countries, developing countries.
+zzzz. compares the education of librarians in the usa
+    with that in the nordic countries.
+
+QuerryID=14536
+Querrie = i am interested in information and less developed    countries. this would include the particular problems of less    developed countries now, and their expected future problems    (such as electronic publishing). also, the information policies    of less developed countries and the factors which may affect    their practical implementation. what are the priorities and    suggested practical stages in the solution of problems and    implementation of policies. less developed countries, under    developed countries, developing countries.
+the information needs of the developing countries'
+    analytical case-studies. unesco and the united nations interim
+    fund for science and technology for development (ifstd) have
+    undertaken a study to determine the real needs and options for
+    access to information in 8 developing countries. the
+    conclusions of the analytical case-studies on these countries
+    are given.
+
+QuerryID=14536
+Querrie = i am interested in information and less developed    countries. this would include the particular problems of less    developed countries now, and their expected future problems    (such as electronic publishing). also, the information policies    of less developed countries and the factors which may affect    their practical implementation. what are the priorities and    suggested practical stages in the solution of problems and    implementation of policies. less developed countries, under    developed countries, developing countries.
+planning interlending systems in developing countries.
+    based on reports describing the extent and development of
+    interlibrary loan systems in several of the developing
+    countries, a composite is drawn of the difficulties and
+    problems which arise in the planning stages and execution of
+    such systems in these countries. financial problems, as well as
+    problems of library policy, and the realistic possibilities
+    connected with the literature supply and corresponding need for
+    an interlibrary loan programme in these countries are pointed
+    out. attention is also given to the relationship of the local
+    libraries to the national library. considerations which should
+    be made in finding realistic solutions to these problems on a
+    long-term basis conclude the report.
+
+QuerryID=14536
+Querrie = i am interested in information and less developed    countries. this would include the particular problems of less    developed countries now, and their expected future problems    (such as electronic publishing). also, the information policies    of less developed countries and the factors which may affect    their practical implementation. what are the priorities and    suggested practical stages in the solution of problems and    implementation of policies. less developed countries, under    developed countries, developing countries.
+uap and the development of national information systems.
+    describes the status of uap (universal availability of
+    publications) in the 5 asean (association of southeast asian
+    nations) countries and how it could be developed at the
+    national level as a 1st step. taking the asean
+    countries-indonesia, malaysia, philippines, singapore and
+    thailand-as representative of conditions prevailing in many
+    developing countries, considers the question of literacy and
+    related factors within the region.
+
+QuerryID=37845
+Querrie = the use of lunar radio reflections in investigations of    the nature of the moons surface
+radio observations of the lunar surface information about
+    the moons surface can be obtained from a statistical
+    consideration or radar scattering from the surface
+
+QuerryID=37845
+Querrie = the use of lunar radio reflections in investigations of    the nature of the moons surface
+the radar cross section of the moon reply to criticism of
+    the theory of scattering from the moons surface proposed
+    in
+
+QuerryID=37845
+Querrie = the use of lunar radio reflections in investigations of    the nature of the moons surface
+lunar temperature measurements at
+
+QuerryID=37845
+Querrie = the use of lunar radio reflections in investigations of    the nature of the moons surface
+on new investigations of the ozone layer and its
+    variations various method of investigation are discussed
+    including use of lunar eclipses
+
+QuerryID=37845
+Querrie = the use of lunar radio reflections in investigations of    the nature of the moons surface
+the physical nature of the surface of the moon evidence
+    concerning the structure of the lunar rock is reviewed it is
+    probable that it is vesicular in nature
+
+QuerryID=13280
+Querrie = the role of information retrieval in knowledge based    systems (i.e., expert systems).
+frequency analysis of computer systems
+
+QuerryID=13280
+Querrie = the role of information retrieval in knowledge based    systems (i.e., expert systems).
+on-line information retrieval systems. 1977-december,
+    1981 (citations from the ntis data base). on-line computer
+    systems for retrieval of information are described in the
+    reports cited. systems development, formats of large and small
+    systems, instructions for use and comparisons of operating
+    networks are included.
+
+QuerryID=13280
+Querrie = the role of information retrieval in knowledge based    systems (i.e., expert systems).
+an expert system as an online search intermediary.
+    examines the application of artificial intelligence to on-line
+    search systems by the development of expert systems which can
+    be interposed between the user and the search system. the
+    expert system would serve as an alternative to a human
+    intermediary.
+
+QuerryID=13280
+Querrie = the role of information retrieval in knowledge based    systems (i.e., expert systems).
+the frequency response analysis of nonlinear
+    systems
+
+QuerryID=13280
+Querrie = the role of information retrieval in knowledge based    systems (i.e., expert systems).
+systems approach to design and retrieval of information
+    in large organizations. defines the parameters of the system
+    known as a library; identifies the components of a large
+    organisation's information system; presents the case for
+    computerisation of information storage and retrieval; and
+    discusses different aspects of information systems (equipment,
+    retrieval process, generic searches, and on-line
+    systems).
+
+QuerryID=2405
+Querrie = memory management aspects of operating systems
+transistorized core memory
+
+QuerryID=2405
+Querrie = memory management aspects of operating systems
+a survey of digital computer memory systems correction to
+    paper abstracted in of january
+
+QuerryID=2405
+Querrie = memory management aspects of operating systems
+further aspects of the theory of the maser
+
+QuerryID=2405
+Querrie = memory management aspects of operating systems
+pulse generator and high speed memory circuit
+
+QuerryID=2405
+Querrie = memory management aspects of operating systems
+pulse generator and high speed memory circuit

@@ -7,7 +7,6 @@ import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.sql.Array;
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -17,7 +16,7 @@ public class MiniRetrieve {
     //private static final String QUERRY_PATH = "queries/";
 
     private static final String DOCUMENT_PATH = "docs_ie_col/";
-    private static final String QUERRY_PATH = "queries_ie_col/";
+    private static final String QUERY_PATH = "queries_ie_col/";
 
 
     private static Map<Integer, File> myQueries;
@@ -25,17 +24,21 @@ public class MiniRetrieve {
     //Indexes
     private static final Map<String, Map<File, Integer>> invIndex = new HashMap<>();
     private static final Map<File, Map<String,Integer>> nonInvIndex = new HashMap<>();
-    private static final Map<File, Map<String, Integer>> querryIndex = new HashMap<>();
+    private static final Map<File, Map<String, Integer>> queryIndex = new HashMap<>();
     //MiniRetrive components
     private static Map<File,Double> accumulator;
     private static Map<File,Double> dNorm = new HashMap<>();
     private static Map<String,Double> idf = new HashMap<>();
     private static double qNorm = 0.0;
     private static double totalNumberOfDocuments = 0.0;
-    private static final TrecParser tercParser = new TrecParser();
+
+    private static final List<Integer> toBeEvaluatedQuerries = new ArrayList<>(Arrays.asList(
+            2405,9125,13280,14000,14536,19982,22423,24081,35727,37845
+    ));
+
 
     public static void main(String[] args) {
-        myQueries = readDirectory(QUERRY_PATH);
+        myQueries = readDirectory(QUERY_PATH);
         myDocuments = readDirectory(DOCUMENT_PATH);
         //System.out.println(tokenizeString(querries.get(1)));
         createNonAndInvIndex(myDocuments);
@@ -54,7 +57,7 @@ public class MiniRetrieve {
                 if(!idf.containsKey(term)){
                     idf.put(term,Math.log(1.0+totalNumberOfDocuments));
                 }
-                double b = idf.get(term) * querryIndex.get(querie).get(term);
+                double b = idf.get(term) * queryIndex.get(querie).get(term);
                 qNorm += (b*b);
                 if(invIndex.containsKey(term)){
                     for (File doc : invIndex.get(term).keySet()) {
@@ -76,14 +79,62 @@ public class MiniRetrieve {
                 accumulator.put(doc, (accumulator.get(doc)*1000.0/(dNorm.get(doc)*qNorm)));
             }
             List<Map.Entry<File, Double>> results = sortLinkedMap(accumulator);
-            /*for(int i =0; i < 10 ; i++){
+            for(int i =0; i < 10 ; i++){
+                int querrieID = Integer.parseInt(querie.toString().substring(8+7));
+              if(i <5 && toBeEvaluatedQuerries.contains(querrieID)) buildEvaluationList(querie, results.get(results.size()-i-1).getKey(),querrieID);
                 System.out.println(querie.toString().substring(8+7) + " Q0 " +
                         results.get(results.size()-i-1).getKey().toString().substring(10+2)
                         +"   "+ results.get(results.size()-i-1).getValue()+ " miniretrive");
-            }*/
+            }
         }
         long endTime = System.currentTimeMillis();
         System.out.println("elapsed time =" + String.valueOf((endTime-start)/1000.0));
+    }
+
+    private static void buildLucene(File question, File result, Integer queryId){
+
+
+        File output = new File("Results_lucene");
+        String readFile = readFile(result);
+        try( FileWriter fileWriter = new FileWriter(output, true);
+             BufferedWriter bw = new BufferedWriter(fileWriter);
+             FileReader fileReader = new FileReader(result);
+             BufferedReader bf = new BufferedReader(fileReader)
+        ) {
+            bw.write("\n"+"QuerryID="+String.valueOf(queryId)+"\n");
+            bw.write("Querrie = "+ readFile(question)+"\n");
+            List<String> lines = Files.readAllLines(result.toPath());
+            for (String line : lines) {
+                bw.write(line+"\n");
+            }
+        } catch (final IOException e) {
+            throw new ExceptionInInitializerError(e.getMessage());
+        }
+    }
+
+    /**
+     * Build a file with querieIDs and the corresponding file for easy checking
+     * @param question File with question
+     * @param result File with result to question
+     * @param queryId int with queryID
+     */
+    private static void buildEvaluationList(File question, File result, Integer queryId){
+        File output = new File("output");
+        String readFile = readFile(result);
+        try( FileWriter fileWriter = new FileWriter(output, true);
+             BufferedWriter bw = new BufferedWriter(fileWriter); 
+             FileReader fileReader = new FileReader(result);
+             BufferedReader bf = new BufferedReader(fileReader)
+        ) {
+            bw.write("\n"+"QuerryID="+String.valueOf(queryId)+"\n");
+            bw.write("Querrie = "+ readFile(question)+"\n");
+            List<String> lines = Files.readAllLines(result.toPath());
+            for (String line : lines) {
+                bw.write(line+"\n");
+            }
+        } catch (final IOException e) {
+            throw new ExceptionInInitializerError(e.getMessage());
+        }
     }
 
     /**
@@ -122,17 +173,17 @@ public class MiniRetrieve {
             List<String> terms = tokenizeString(readFile(querry));
             for (String term : terms) {
                 //if nonInvIndex already contains a document and a term already containing that term one then increment
-                if(querryIndex.containsKey(querry) && querryIndex.get(querry).containsKey(term)){
-                    Map<String,Integer> mapofDocument = querryIndex.get(querry);
+                if(queryIndex.containsKey(querry) && queryIndex.get(querry).containsKey(term)){
+                    Map<String,Integer> mapofDocument = queryIndex.get(querry);
                     mapofDocument.put(term,(mapofDocument.get(term)+1));
                     // if nonInvIndex contains document but not that term then put term in doc with count1
-                }else if(querryIndex.containsKey(querry)){
-                    querryIndex.get(querry).put(term,1);
+                }else if(queryIndex.containsKey(querry)){
+                    queryIndex.get(querry).put(term,1);
                     // if doc is not in nonInvIndex then put it with the term it corresponds to
                 }else{
                     Map<String,Integer> newMap = new HashMap<>();
                     newMap.put(term,1);
-                    querryIndex.put(querry, newMap);
+                    queryIndex.put(querry, newMap);
                 }
             }
         }
